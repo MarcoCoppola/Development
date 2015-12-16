@@ -32,12 +32,12 @@ Creare un file `constants.js`
 - [ ] [Naming](#naming)
 - [ ] [Application Structure LIFT Principle](#application-structure-lift-principle)
 - [ ] [Application Structure](#application-structure)
-- [ ] [Modularity](#modularity)
-- [ ] [Startup Logic](#startup-logic)
+- [x] Modularity
+- [x] Startup Logic
 - [ ] [Angular $ Wrapper Services](#angular--wrapper-services)
 - [ ] [Testing](#testing)
 - [ ] [Animations](#animations)
-- [ ] [Comments](#comments)
+- [x] Comments
 - [ ] [JSHint](#js-hint)
 - [x] JSCS
 - [x] Constants
