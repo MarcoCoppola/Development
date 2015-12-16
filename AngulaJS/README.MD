@@ -1,10 +1,50 @@
 ## AngulaJS
 1.[Constants](#Constants)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Constants
 Creare un file `constants.js`
 
- ```javascript
+```javascript
     // Costanti usate nel modulo foo
     angular
         .module('foo')
@@ -12,7 +52,7 @@ Creare un file `constants.js`
             ON_LINE: 'network_on_line',
             OFF_LINE: 'network_off_line'
         });
-    ```
+```
 
 
 
