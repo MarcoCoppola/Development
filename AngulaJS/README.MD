@@ -1,45 +1,5 @@
 ## AngulaJS
-1.[Constants](#Constants)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1.[Constants](#constants)
 
 ## Constants
 Creare un file `constants.js`
@@ -87,7 +47,7 @@ Creare un file `constants.js`
 - [ ] [Comments](#comments)
 - [ ] [JSHint](#js-hint)
 - [ ] [JSCS](#jscs)
-- [ ] [Constants](#constants)
+- [x] Constants
 - [ ] [File Templates and Snippets](#file-templates-and-snippets)
 - [ ] [Yeoman Generator](#yeoman-generator)
 - [ ] [Routing](#routing)
