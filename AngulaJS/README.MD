@@ -1,4 +1,28 @@
-## Table of Contents
+## AngulaJS
+1.[Constants](#Constants)
+
+## Constants
+Creare un file `constants.js`
+
+ ```javascript
+    // Costanti usate nel modulo foo
+    angular
+        .module('foo')
+        .constant('network', {
+            ON_LINE: 'network_on_line',
+            OFF_LINE: 'network_off_line'
+        });
+    ```
+
+
+
+
+
+
+
+
+
+
 
 - [ ] [Single Responsibility](#single-responsibility)
 - [ ] [IIFE](#iife)
