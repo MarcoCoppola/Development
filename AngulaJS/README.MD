@@ -24,11 +24,11 @@
 - [ ] [JSHint](#js-hint)
 - [ ] [JSCS](#jscs)
 - [ ] [Constants](#constants)
-- [ ][File Templates and Snippets](#file-templates-and-snippets)
+- [ ] [File Templates and Snippets](#file-templates-and-snippets)
 - [ ] [Yeoman Generator](#yeoman-generator)
 - [ ] [Routing](#routing)
 - [ ] [Task Automation](#task-automation)
 - [ ] [Filters](#filters)
 - [ ] [Angular Docs](#angular-docs)
-- [x] [Contributing](#contributing)
-- [x] [License](#license)
+- [x] Contributing
+- [x] License
