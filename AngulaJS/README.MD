@@ -17,13 +17,6 @@ Creare un file `constants.js`
 
 
 
-
-
-
-
-
-
-
 - [ ] [Single Responsibility](#single-responsibility)
 - [ ] [IIFE](#iife)
 - [ ] [Modules](#modules)
@@ -46,7 +39,7 @@ Creare un file `constants.js`
 - [ ] [Animations](#animations)
 - [ ] [Comments](#comments)
 - [ ] [JSHint](#js-hint)
-- [ ] [JSCS](#jscs)
+- [x] JSCS
 - [x] Constants
 - [ ] [File Templates and Snippets](#file-templates-and-snippets)
 - [ ] [Yeoman Generator](#yeoman-generator)
