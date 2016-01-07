@@ -1,6 +1,6 @@
 # AngulaJS
-    1.[Style Guide](#style-guide)
-    1.[Best Practies](#best-practies)
+  1. [Style Guide](#style-guide)
+  2. [Best Practies](#best-practies)
 
 
 ## Style Guide
