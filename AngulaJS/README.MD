@@ -5,7 +5,7 @@
   * [ng-if vs ns-show](#ng-if-vs-ns-show)
 
 ## Promise
-Se un errore viene gestito, la promise ritornata dal `then` è considerato **resolved**
+Se il primo errore viene gestito, la promise ritornata dal `then` è considerato **resolved** o la promise è **reject**
 
 ## Style Guide
 1.[Constants](#constants)
