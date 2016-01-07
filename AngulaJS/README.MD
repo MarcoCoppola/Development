@@ -1,10 +1,10 @@
 # AngulaJS
 1.[Style Guide](#style-guide)
-1.[Best Practies](#best-practies)
+2.[Best Practies](#best-practies)
 
 
 ## Style Guide
-2.[Constants](#constants)
+1.[Constants](#constants)
 
 ## Constants
 Creare un file `constants.js`
