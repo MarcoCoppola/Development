@@ -1,7 +1,7 @@
 # AngulaJS
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
-  1. [Pippo](#best-practies)
+  1. [ng-if vs ns-show](#ng-if-vs-ns-show)
 
 ## Style Guide
 1.[Constants](#constants)
@@ -56,3 +56,4 @@ Creare un file `constants.js`
 - [x] License
 
 ## Best Practies
+### ng-if vs ns-show
