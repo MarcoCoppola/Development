@@ -1,7 +1,11 @@
 # AngulaJS
+1. [Promise](#promise)
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
   * [ng-if vs ns-show](#ng-if-vs-ns-show)
+
+## Promise
+Se un errore viene gestito, la promise ritornata dal `then` è considerato **resolved**
 
 ## Style Guide
 1.[Constants](#constants)
