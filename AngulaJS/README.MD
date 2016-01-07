@@ -4,7 +4,7 @@
 
 
 ## Style Guide
-1.[Constants](#constants)
+2.[Constants](#constants)
 
 ## Constants
 Creare un file `constants.js`
