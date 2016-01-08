@@ -5,7 +5,7 @@
   * [ng-if vs ns-show](#ng-if-vs-ns-show)
 
 ## Promise
-Se il primo errore viene gestito, la promise ritornata dal `then` è considerato **resolved** o la promise è **reject**
+- [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
 
 ## Style Guide
 1.[Constants](#constants)
