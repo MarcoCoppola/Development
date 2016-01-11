@@ -13,6 +13,8 @@ Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed ar
  1. The constructor invocation pattern
  1. The apply invocation pattern
 
+###Function Declarations vs. Function Expressions
+More information follow the below [link](#https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
 
 ##Strict Mode
 The "use strict" directive is new in JavaScript 1.8.5 (ECMAScript version 5).
@@ -43,4 +45,4 @@ x = 3.14;       // This will cause an error (x is not defined)
 ```
 
 ### More information
-See the below [link](http://www.w3schools.com/js/js_strict.asp) 
+Follow the below  [link](http://www.w3schools.com/js/js_strict.asp) 
