@@ -4,7 +4,7 @@
 ##Functions
 Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed array.
 
-Patterns of invocation in Javascript:
+###Patterns of invocation in Javascript
  1. **The method invocation pattern**
  
     Quando una funzione è memorizzata come una proprietà di un oggetto, prende il nome di **method** 
