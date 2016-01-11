@@ -14,8 +14,15 @@ Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed ar
  1. The apply invocation pattern
 
 ###Function Declarations vs. Function Expressions
-More information follow the below [link](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
-[var functionName = function() {} vs function functionName() {}](http://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname)
+```javascript
+//Function Declaration
+function add(a,b) {return a + b};
+//Function Expression
+var add = function(a,b) {return a + b};
+```
+More information follow the below links:
+- [link](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
+- [var functionName = function() {} vs function functionName() {}](http://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname)
 
 ##Strict Mode
 The "use strict" directive is new in JavaScript 1.8.5 (ECMAScript version 5).
