@@ -1,7 +1,7 @@
 #Testing
 
 1. [Installing & configuring the Test System](#installation)
-  2. Installation  
+  2. [Installation](#installation)  
     + [Karma](#karma)
     + [Jasmine](#jasmine)
     + [angular-mocks](#angular-mocks)
