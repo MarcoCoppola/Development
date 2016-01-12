@@ -7,7 +7,7 @@
 
 ##Installation
 ###Karma
-If you want to use karma from command line, you have installing Karma CLI
+If you want to use karma from command line, you have installing `Karma CLI`
 ```
 npm install -g karma-cli
 ```
