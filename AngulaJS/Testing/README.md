@@ -5,6 +5,7 @@
     + [Karma](#karma)
     + [Jasmine](#jasmine)
     + [angular-mocks](#angular-mocks)
+    + [PhantomJS](#PhantomJS)
   2. [Configuration](#configuration)
     
 
@@ -29,8 +30,30 @@ npm install karma-chrome-launcher --save-dev
 ```
 
 ###angular-mocks
+Always make sure you install the version of angular-mocks that is the same version as the Angular library.
 ```
 npm install angular-mocks
 ```
 
+### PhantomJS
+we need to decide on a browser to run our unit tests. Karma supports most browsers, but the most popular choice is PhantomJS. It's a headless (no GUI) browser built on WebKit and is perfect for running automated unit tests.
+```
+npm install -g phantomjs
+```
+
 ##Configuration
+Creare una cartella `tests` e `tests/unit-tests`
+Now we have to create a configuration file for Karma to instruct it which files to use for testing and which browser.
+Into tests folder:
+```
+karma init unit-tests.conf.js
+```
+
+| Question | Answer | Description |
+| -------- | ------ | ----------- |
+| Which testing framework do you want to use?   | Jasmine | - |
+|Use Require.js?|No|-|
+|Do you want to capture a browser automatically?|PhantomJS|-|
+|What is the location of your source and test files?| '../www/lib/ionic/js/ionic.bundle.js', '../www/app/**/*.js', '../www/lib/angular-mocks/angular-mocks.js', 'unit-tests/**/*.js'| - |
+|Should any files be excluded? | <empty string> | - |
+| Do you want Karma to watch all the files and run the tests on change?| Yes | - |
