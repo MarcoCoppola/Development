@@ -22,12 +22,15 @@ npm install -g karma-cli
 ###Jasmine
 ```
 # Install plugins that your project needs:
-npm install karma-jasmine karma-chrome-launcher --save-dev
+npm install karma-jasmine --save-dev
 ```
 ```
 npm install karma-chrome-launcher --save-dev
 ```
 
 ###angular-mocks
+```
+npm install angular-mocks
+```
 
 ##Configuration
