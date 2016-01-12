@@ -2,8 +2,8 @@
 1. [Promise](#promise)
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
-   * [Check the used version](#check-the-used-version)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
+1. [Check the used version](#check-the-used-version)
  
 
 ## Promise
@@ -62,11 +62,6 @@ Creare un file `constants.js`
 - [x] License
 
 ## Best Practies
-### Check the used version
-Angular does not have a command line tool.
-You can get the version number from the JavaScript file itself.
-Header of the current `angular.js`:
-
 ### ng-if vs ns-show
 
 - `ng-if` will remove elements from DOM. This means that all your handlers or anything else attached to those elements will be lost. For example, if you bound a click handler to one of child elements, when ng-if evaluates to false, that element will be removed from DOM and your click handler will not work any more, even after ng-if later evaluates to true and displays the element. You will need to reattach the handler.
@@ -75,3 +70,8 @@ ng-if creates a child scope while ng-show/ng-hide does not
 Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide
 
 > Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide, the question you need to answer is whether you can remove element from DOM or not?
+
+### Check the used version
+Angular does not have a command line tool.
+
+You can get the version number from the JavaScript file `angular.js`.
