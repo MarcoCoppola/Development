@@ -2,7 +2,9 @@
 1. [Promise](#promise)
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
-  * [ng-if vs ns-show](#ng-if-vs-ns-show)
+   * [Check the used version](#check-the-used-version)
+   * [ng-if vs ns-show](#ng-if-vs-ns-show)
+ 
 
 ## Promise
 - [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
@@ -60,6 +62,11 @@ Creare un file `constants.js`
 - [x] License
 
 ## Best Practies
+### Check the used version
+Angular does not have a command line tool.
+You can get the version number from the JavaScript file itself.
+Header of the current `angular.js`:
+
 ### ng-if vs ns-show
 
 - `ng-if` will remove elements from DOM. This means that all your handlers or anything else attached to those elements will be lost. For example, if you bound a click handler to one of child elements, when ng-if evaluates to false, that element will be removed from DOM and your click handler will not work any more, even after ng-if later evaluates to true and displays the element. You will need to reattach the handler.
