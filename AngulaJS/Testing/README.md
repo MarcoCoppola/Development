@@ -32,7 +32,7 @@ npm install karma-chrome-launcher --save-dev
 ###angular-mocks
 Always make sure you install the version of angular-mocks that is the same version as the Angular library.
 ```
-npm install angular-mocks
+bower install angular-mocks#x.x.x --save-dev
 ```
 
 ### PhantomJS
