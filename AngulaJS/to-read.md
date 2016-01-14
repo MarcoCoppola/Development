@@ -80,42 +80,6 @@
   angular.module('app');
   ```
 
-### Named vs Anonymous Functions
-###### [Style [Y024](#style-y024)]
-
-  - Use named functions instead of passing an anonymous function in as a callback.
-
-  *Why?*: This produces more readable code, is much easier to debug, and reduces the amount of nested callback code.
-
-  ```javascript
-  /* avoid */
-  angular
-      .module('app')
-      .controller('DashboardController', function() { })
-      .factory('logger', function() { });
-  ```
-
-  ```javascript
-  /* recommended */
-
-  // dashboard.js
-  angular
-      .module('app')
-      .controller('DashboardController', DashboardController);
-
-  function DashboardController() { }
-  ```
-
-  ```javascript
-  // logger.js
-  angular
-      .module('app')
-      .factory('logger', logger);
-
-  function logger() { }
-  ```
-
-**[Back to top](#table-of-contents)**
 
 ## Controllers
 
