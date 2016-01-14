@@ -2,7 +2,7 @@
 1. [Promise](#promise)
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
-   * [Funzioni con un nome vs funzioni anonime](#Funzioni-con-un-nome-vs-funzioni-anonime)
+   * [Funzioni con un nome vs funzioni anonime](#funzioni-con-un-nome-vs-funzioni-anonime)
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
