@@ -1,6 +1,7 @@
 # JavaScript
 1. [Functions](#functions)
-2. [Strict Mode](#strict-mode)
+1. [IIFE - Immediately-Invoked Function Expression](#iife) 
+1. [Strict Mode](#strict-mode)
 
 ##Functions
 Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed array.
@@ -23,6 +24,20 @@ var add = function(a,b) {return a + b};
 More information follow the below links:
 - [link](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
 - [var functionName = function() {} vs function functionName() {}](http://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname)
+
+##IIFE
+This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
+This is why, maybe, you confused this construction with an event-handler for window.onload, because it’s often used as this:
+``` javascript
+(function(){
+    // all your code here
+    var foo = function() {};
+    window.onload = foo;
+    // ...
+})();
+// foo is unreachable here (it’s undefined)
+```
+The function is executed right after it's created, not after it is parsed. The entire script block is parsed before any code in it is executed. Also, parsing code doesn't automatically mean that it's executed, if for example the IIFE is inside a function then it won't be executed until the function is called
 
 ##Strict Mode
 The "use strict" directive is new in JavaScript 1.8.5 (ECMAScript version 5).
