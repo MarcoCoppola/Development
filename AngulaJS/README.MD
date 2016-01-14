@@ -12,6 +12,8 @@
 ## Promise
 - [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
 
+---
+
 ## Style Guide
 1.[Constants](#constants)
 
@@ -63,7 +65,9 @@ Creare un file `constants.js`
 
   function logger() { }
   ```
-  
+
+---
+
 ### Indentificazione manuale delle dipendenze
 
 
@@ -141,6 +145,8 @@ Creare un file `constants.js`
     function DashboardPanelController(logger) {
     }
     ```
+---
+
 ### IIFE
 Racchiudere i componenti di Angular in una Immediately Invoked Function Expression (IIFE) (Espressione di funzione immediatamente chiamata).
 
@@ -200,7 +206,8 @@ Quando il tuo codice è minificato e raggruppato in un file singolo per il rilas
   })();
   ```
 
-  
+---
+
 ### ng-if vs ns-show
 
 - `ng-if` will remove elements from DOM. This means that all your handlers or anything else attached to those elements will be lost. For example, if you bound a click handler to one of child elements, when ng-if evaluates to false, that element will be removed from DOM and your click handler will not work any more, even after ng-if later evaluates to true and displays the element. You will need to reattach the handler.
