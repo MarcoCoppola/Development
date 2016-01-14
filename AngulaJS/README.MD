@@ -2,6 +2,7 @@
 1. [Promise](#promise)
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
+   * [Funzioni con un nome vs funzioni anonime](#Funzioni_con_un_nome_ vs_funzioni_anonime)
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
@@ -28,6 +29,41 @@ Creare un file `constants.js`
 ```
 
 ## Best Practies
+
+### Funzioni con un nome vs funzioni anonime
+
+  Usa funzioni che hanno un nome piuttosto che passare una funzione anonima come in una callback.
+
+  *Perché?*: Ciò produce codice maggiormente leggibile, è più facile farne il debug, e riduce la quantità di codice posto dentro una callback.
+
+  ```javascript
+  /* evitare */
+  angular
+      .module('app')
+      .controller('DashboardController', function() { });
+      .factory('logger', function() { });
+  ```
+
+  ```javascript
+  /* consigliato */
+
+  // dashboard.js
+  angular
+      .module('app')
+      .controller('DashboardController', DashboardController);
+
+  function DashboardController() { }
+  ```
+
+  ```javascript
+  // logger.js
+  angular
+      .module('app')
+      .factory('logger', logger);
+
+  function logger() { }
+  ```
+  
 ### Indentificazione manuale delle dipendenze
 
 
