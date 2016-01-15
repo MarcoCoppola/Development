@@ -26,8 +26,9 @@ More information follow the below links:
 - [var functionName = function() {} vs function functionName() {}](http://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname)
 
 ##IIFE
-This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
-This is why, maybe, you confused this construction with an event-handler for window.onload, because it’s often used as this:
+- This pattern is often used when trying to avoid polluting the global namespace, because all the variables used inside the IIFE (like in any other normal function) are not visible outside its scope.
+- Don't introduce global variables.
+- This is why, maybe, you confused this construction with an event-handler for window.onload, because it’s often used as this:
 ``` javascript
 (function(){
     // all your code here
