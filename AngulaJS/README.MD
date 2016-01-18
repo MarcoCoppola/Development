@@ -1,5 +1,6 @@
 # AngulaJS
 1. [Promise](#promise)
+1. [Select](#select) 
 1. [Style Guide](#style-guide)
 1. [Best Practies](#best-practies)
    * [Funzioni con un nome vs funzioni anonime](#funzioni-con-un-nome-vs-funzioni-anonime)
@@ -13,7 +14,17 @@
 - [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
 
 ---
-
+## Select
+``` javascript
+function initSelect(){
+  var options = ['A', 'B', 'C'];
+  $scope.select = {
+    selected: '',
+    options: options
+  };
+}
+```
+---
 ## Style Guide
 1.[Constants](#constants)
 
