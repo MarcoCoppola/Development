@@ -14,6 +14,7 @@
 - [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
 
 ---
+
 ## Select
 ``` javascript
 function initSelect(){
@@ -24,7 +25,12 @@ function initSelect(){
   };
 }
 ```
+
+More information:
+- [A Brief Walk-through of the Ng-options in AngularJS](http://www.undefinednull.com/2014/08/11/a-brief-walk-through-of-the-ng-options-in-angularjs/)
+
 ---
+
 ## Style Guide
 1.[Constants](#constants)
 
