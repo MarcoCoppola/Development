@@ -15,9 +15,9 @@ Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed ar
  1. The apply invocation pattern
 
 ###Function Declarations vs. Function Expressions
-`Function Declaration` deve avere per forza un'identificativo mentre `Function Expression` è falcoltativo.
+`Function Declaration` deve avere per forza un'identificativo mentre in una `Function Expression` è falcoltativo.
 Le function declaration sono analizzate e valutate prima di ogni expression.
-Si deve evitare di usare una Function Declaration all'interno di uno condition statements poichè si possono avere comportamenti diversi a seconda del browser utilizzato. In questo caso usare Function Expressions.
+Si deve evitare di usare una Function Declaration all'interno di una condition statements poichè si possono avere comportamenti diversi a seconda del browser utilizzato. In questo caso usare Function Expressions.
 
 ```javascript
 //Function Declaration
