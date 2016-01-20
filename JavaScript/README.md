@@ -18,8 +18,9 @@ Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed ar
 ```javascript
 //Function Declaration
 function add(a,b) {return a + b};
+
 //Function Expression
-var add = function(a,b) {return a + b};
+var add = function(a,b) {return a + b}; // since it's part of an AssignmentExpression
 ```
 More information follow the below links:
 - [link](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
