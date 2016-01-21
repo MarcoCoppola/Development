@@ -44,6 +44,8 @@ we need to decide on a browser to run our unit tests. Karma supports most browse
 npm install -g phantomjs
 ```
 
+---
+
 ##Configuration
 Creare una cartella `tests` e `tests/unit-tests`
 Now we have to create a configuration file for Karma to instruct it which files to use for testing and which browser.
