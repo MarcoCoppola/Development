@@ -11,6 +11,7 @@
 
 ##Installation
 ###Karma
+Karma is a tool built by the Angular team for running unit tests.
 ```
 # Install Karma:
 npm install karma --save-dev
@@ -21,6 +22,8 @@ If you want to use karma from command line, you have installing `Karma CLI`
 npm install -g karma-cli
 ```
 ###Jasmine
+Jasmine is a framework for testing Angular apps.
+
 ```
 # Install plugins that your project needs:
 npm install karma-jasmine --save-dev
