@@ -68,7 +68,7 @@ karma init unit-tests.conf.js
 
 ##2End2 Testing
 ###Installing Testing Environment
-Start by installing Protractor
+Start by installing Protractor. It is an end-to-end testing framework for AngularJS.
 ```
 npm install -g protractor
 ```
