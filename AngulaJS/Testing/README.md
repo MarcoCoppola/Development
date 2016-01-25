@@ -1,15 +1,15 @@
 #Testing
 
-1. [Installing & configuring the Test System](#installation)
+1. [Unit Testing](#unit-testing)
   2. [Installation](#installation)  
     + [Karma](#karma)
     + [Jasmine](#jasmine)
     + [angular-mocks](#angular-mocks)
     + [PhantomJS](#PhantomJS)
   2. [Configuration](#configuration)
-    
+1.[2End2 Testing](#2end2-testing)    
 
-##Installation
+##Unit Testing
 ###Karma
 Karma is a tool built by the Angular team for running unit tests.
 ```
@@ -62,3 +62,7 @@ karma init unit-tests.conf.js
 |What is the location of your source and test files?| '../www/lib/ionic/js/ionic.bundle.js', '../www/app/**/*.js', '../www/lib/angular-mocks/angular-mocks.js', 'unit-tests/**/*.js'| - |
 |Should any files be excluded? | <empty string> | - |
 | Do you want Karma to watch all the files and run the tests on change?| Yes | - |
+
+--- 
+
+##2End2 Testing
