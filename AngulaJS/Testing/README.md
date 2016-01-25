@@ -77,3 +77,25 @@ Use the web manager to install the chrome-driver and selenium server.
 ```
 webdriver update
 ```
+Create folders `tests` e `tests/e2e-tests`.
+
+Create a protractor config file, `protractor.config.js` and copy to it the following code:
+
+```javascript
+exports.config = {  
+        capabilities: {
+            'browserName': 'chrome',
+            'chromeOptions': {                
+                args: ['--disable-web-security']
+            } 
+        },
+        baseUrl: 'http://localhost:8100',
+        specs: [
+            'e2e-tests/**/*.tests.js'
+        ],
+        jasmineNodeOpts: {
+            showColors: true,
+            isVerbose: true,
+        }
+};
+```
