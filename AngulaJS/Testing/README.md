@@ -7,7 +7,7 @@
     + [angular-mocks](#angular-mocks)
     + [PhantomJS](#PhantomJS)
   2. [Configuration](#configuration)
-1. [2End2 Testing](#2end2-testing)
+1. [End-to-end Testing](#end-to-end-testing)
   * [Installing Testing Environment] (#installing-testing-environment)
 
 ##Unit Testing
@@ -66,7 +66,7 @@ karma init unit-tests.conf.js
 
 --- 
 
-##2End2 Testing
+##End-to-end Testing
 ###Installing Testing Environment
 Start by installing Protractor. It is an end-to-end testing framework for AngularJS.
 ```
