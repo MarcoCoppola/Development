@@ -12,7 +12,7 @@
 
 ##Unit Testing
 ###Karma
-Karma is a tool built by the Angular team for running unit tests.
+Karma is a tool built by the Angular team for running unit tests. It is a test runner.
 ```
 # Install Karma:
 npm install karma --save-dev
