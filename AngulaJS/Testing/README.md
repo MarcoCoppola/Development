@@ -68,18 +68,18 @@ karma init unit-tests.conf.js
 
 ##End-to-end Testing
 ###Installing Testing Environment
-Start by installing Protractor. It is an end-to-end testing framework for AngularJS.
++ Start by installing Protractor. It is an end-to-end testing framework for AngularJS.
 ```
 npm install -g protractor
 ```
 
-Use the web manager to install the chrome-driver and selenium server.
++ Use the web manager to install the chrome-driver and selenium server.
 ```
 webdriver update
 ```
-Create folders `tests` e `tests/e2e-tests`.
++ Create folders `tests` e `tests/e2e-tests`.
 
-Create a protractor config file, `protractor.config.js` and copy to it the following code:
++ Create a protractor config file, `protractor.config.js` and copy to it the following code:
 
 ```javascript
 exports.config = {  
