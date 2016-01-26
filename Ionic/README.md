@@ -1,5 +1,5 @@
 # Ionic
-1. End-to-end testing with Appium and Protractor
+1. [End-to-end testing with Appium and Protractor](#end-to-end-testing-with-appium-and-protractor)
 
 ---
 
