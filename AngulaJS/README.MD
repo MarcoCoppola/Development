@@ -8,6 +8,7 @@
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
 1. [Check the used version](#check-the-used-version)
+1. [Links](#links) 
  
 
 ## Promise
@@ -238,3 +239,8 @@ Elements that are not in the DOM have less performance impact and your web app m
 Angular does not have a command line tool.
 
 You can get the version number from the JavaScript file `angular.js`.
+
+---
+
+## Links
+* [Caching HTTP results in Angular](http://www.codelord.net/2016/01/27/caching-http-results-in-angular/)
