@@ -1,6 +1,7 @@
 # ANDROID
 
 
+
 1. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 ---
 
