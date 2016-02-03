@@ -37,7 +37,7 @@ Fonte: https://dev.liferay.com/participate/javadoc-guidelines
 ## Method
 
 ### Get/search/count matching a single field
-**Pattern**: Returns `something` with the `field1`...`fieldn`
+**Pattern**: Returns `something` with the `field1`
 ```java
 /**
  * Returns the primary key of the user with the email address.
