@@ -6,7 +6,7 @@ Fonte: https://dev.liferay.com/participate/javadoc-guidelines
 - Method:
 	- Get by primary key
 	- Deletes/Removes something
-	* Get/search/count matching a single field
+	* [Get/search/count matching a single field](#getsearchcount-matching-a-single-field)
 	- Get/search/count matching multiple fields
 	- Get/search/count by field-to-keyword matching
 	- Get/search/count by Combined Field Value and Field-to-Keyword Matching
@@ -37,7 +37,7 @@ Fonte: https://dev.liferay.com/participate/javadoc-guidelines
 ## Method
 
 ### Get/search/count matching a single field
-Pattern: Returns <something> with the <field1>...<fieldn>
+Pattern: Returns `something○` with the `field1`...`fieldn`
 ```java
 /**
  * Returns the primary key of the user with the email address.
