@@ -14,7 +14,7 @@
 | Activity         | `activity_<ACTIVITY NAME>`  | `activity_user_profile.xml`   |
 | Fragment         | `fragment_<FRAGMENT_NAME>`  | `fragment_sign_up.xml`        |
 | Dialog           | `dialog_<DIALOG_NAME>`      | `dialog_change_password.xml`  |
-| AdapterView row  | `row_<LIST_NAME>            | `item_person.xml`             |
+| AdapterView row  | `row_<LIST_NAME>`           | `item_person.xml`             |
 
 
 
