@@ -2,7 +2,7 @@
 
 1. Naming Convention
   * [Layout files](#layout-files)
-  * [ID Resources naming]()
+  * [ID Resources naming](#id-resources-naming)
 
 ---
 
@@ -17,12 +17,14 @@
 | Dialog           | `dialog_<DIALOG_NAME>`      | `dialog_change_password.xml`  |
 | AdapterView row  | `row_<LIST_NAME>`           | `item_person.xml`             |
 
+---
+
 ### ID Resources naming
 
-| Element          | Prefix                     | Example                       |
-| ---------------- | --------------------------- | ----------------------------- |
-| TextView         | `text_`  | `@+id/text_name`   |
-| ImageView         | `image_`  | `@+id/image_user`        |
-| Button         | `button_`  | `@+id/image_user`        |
-| Menu         | `menu_`  | `@+id/menu_done`        |
+| Element    | Prefix     | Example             |
+| ---------- | ---------- | ------------------- |
+| TextView   | `text_`    | `@+id/text_name`    |
+| ImageView  | `image_`   | `@+id/image_user`   |
+| Button     | `button_`  | `@+id/button_user`  |
+| Menu       | `menu_`    | `@+id/menu_done`    |
 
