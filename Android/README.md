@@ -1,13 +1,18 @@
 # ANDROID
 
 1. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
-2. [Link](#link) 
+2. [Best Practices](#)
+3. [Link](#link) 
 
 ---
 
 ## .gitignore for an Android Studio project
 See the follow [link](https://github.com/github/gitignore/blob/master/Android.gitignore).
 
+---
+
+## Best Practices
+* [Avoid Nested weights](#http://www.rapidvaluesolutions.com/tech_blog/best-practices-for-android-user-interface/)
 ---
 
 ## Link
