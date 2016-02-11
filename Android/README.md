@@ -13,7 +13,7 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 
 ## Best Practices
 
-+ [Avoid Nested weights](#http://www.rapidvaluesolutions.com/tech_blog/best-practices-for-android-user-interface/)
++ [Avoid Nested weights](http://www.rapidvaluesolutions.com/tech_blog/best-practices-for-android-user-interface/)
 
 ---
 
