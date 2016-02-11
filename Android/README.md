@@ -19,3 +19,4 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 
 ## Link
 * [Android Push Notifications using GCM, PHP & MySQL – Realtime Chat App](http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/)
+* [Top 10 Most Common Mistakes That Android Developers Make: A Programming Tutorial] (http://www.toptal.com/android/top-10-most-common-android-development-mistakes)
