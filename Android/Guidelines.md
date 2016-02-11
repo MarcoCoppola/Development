@@ -20,8 +20,12 @@
 ---
 
 ### ID Resources naming
+**Pattern**: `layoutname_component_name`, `component_name`
 
-| Element    | Prefix     | Example             |
+
+`Which page` + `Which component` + `What it is for`
+
+| Component  | Prefix     | Example             |
 | ---------- | ---------- | ------------------- |
 | TextView   | `text_`    | `@+id/text_name`    |
 | ImageView  | `image_`   | `@+id/image_user`   |
