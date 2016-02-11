@@ -32,3 +32,8 @@
 | Button     | `button_`  | `@+id/button_user`  |
 | Menu       | `menu_`    | `@+id/menu_done`    |
 
+| Examples               |
+| ---------------------- |
+| login_button_submit    |
+| login_text_forgot_pass |
+
