@@ -5,6 +5,8 @@
   - [ID Resources](#id-resources)
   - [Style](#style)
 
+1. Style
+  * [Typografy](#typografy)
 ---
 
 ## Naming Convention
@@ -43,3 +45,10 @@
 
 ### Style
 Style names are written  in `UpperCamelCase`.
+
+---
+
+## Style
+
+### Typografy
+[Link](http://stackoverflow.com/questions/12128331/how-to-change-fontfamily-of-textview-in-android)
