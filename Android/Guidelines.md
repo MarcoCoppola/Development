@@ -6,7 +6,8 @@
   - [Style](#style)
 
 1. Style
-  * [Typografy](#typografy)
+  - [Typografy](#typografy)
+
 ---
 
 ## Naming Convention
