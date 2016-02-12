@@ -1,8 +1,9 @@
 # Guidelines
 
 1. Naming Convention
-  * [Layout files](#layout-files)
-  * [ID Resources naming](#id-resources-naming)
+  - [Layout files](#layout-files)
+  - [ID Resources](#id-resources)
+  - [Style](#style)
 
 ---
 
@@ -19,7 +20,7 @@
 
 ---
 
-### ID Resources naming
+### ID Resources
 **Pattern**: `layoutname_component_name`, `component_name`
 
 
@@ -37,3 +38,8 @@
 | login_button_submit    |
 | login_text_forgot_pass |
 
+
+---
+
+### Style
+Style names are written  in `UpperCamelCase`.
