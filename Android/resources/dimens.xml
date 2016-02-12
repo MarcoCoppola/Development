@@ -4,7 +4,10 @@
     <dimen name="cardview_text_subtext">14sp</dimen>
     <dimen name="cardview_text_supporting_text">14sp</dimen>
 
-
+    <!-- List -->
+    <dimen name="list_primary_text">16dp</dimen>
+    <dimen name="list_secondary_text">14dp</dimen>
+    
     <!--Icon-->
     <dimen name="icon_24dp_margin">8dp</dimen>
 </resources>
