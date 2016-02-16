@@ -1,4 +1,4 @@
-# Android Layout
+# Android Layouts
 
 1. [FrameLayout](#framelayout)
 1. [LinearLayout](#linearlayout)
