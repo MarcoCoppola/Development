@@ -2,7 +2,7 @@
 
 1. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 1. [Best Practices](#best-practices)
-  * [Java packages architecture] (#java_packages_architecture)
+  * [Java packages architecture] (#java-packages-architecture)
 1. [Link](#link) 
 
 ---
