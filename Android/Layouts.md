@@ -16,8 +16,12 @@
 ---
 
 ## TableLayout
-### Table Row
 Table Row is always MATCH_PARENT in width and WRAP_CONTENT in height.
+
+Number of columns in the TableLayout is decided by the Table Row having maximum Views.
+
+Column width automatically adjusts based on the size of the column with maximum width.
+
 
 | Attribute | Apply to | What does it do ? | What values can it have? |
 | --------- | -------- | ----------------- | ------------------------ |
