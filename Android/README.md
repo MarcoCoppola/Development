@@ -2,6 +2,7 @@
 
 1. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 1. [Best Practices](#best-practices)
+  * [Java packages architecture] (#java_packages_architecture)
 1. [Link](#link) 
 
 ---
@@ -14,6 +15,24 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 ## Best Practices
 
 + [Avoid Nested weights](http://www.rapidvaluesolutions.com/tech_blog/best-practices-for-android-user-interface/)
+
+### Java packages architecture
+```
+project
+|─ activities
+├─ fragments
+├─ network
+├─ models
+├─ managers
+├─ utils
+└─ views
+   ├─ dialogs
+   ├─ adapters
+   ├─ actionbar
+   ├─ widgets
+   └─ notifications
+```
+
 
 ---
 
