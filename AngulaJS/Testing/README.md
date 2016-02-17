@@ -75,7 +75,7 @@ npm install -g protractor
 
 + Use the web manager to install the chrome-driver and selenium server.
 ```
-webdriver update
+webdriver-manager update
 ```
 + Create folders `tests` e `tests/e2e-tests`.
 
