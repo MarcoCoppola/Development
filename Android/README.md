@@ -19,13 +19,13 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 ### Java packages architecture
 ```
 project
-|─ activities
-├─ fragments
+|─ activity
+├─ fragment
 ├─ network
-├─ models
-├─ managers
-├─ utils
-└─ views
+├─ model
+├─ manager
+├─ helper
+└─ view
    ├─ dialogs
    ├─ adapters
    ├─ actionbar
