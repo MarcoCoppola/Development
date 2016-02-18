@@ -1,11 +1,11 @@
 # Protractor
 
-1. [Check the size of the list of multiple elements (ng-repeat)](#check-the-size-of-the-list-of-multiple-elements-ng-repeat)
+1. [Check the number of elements for a specific repeater (ng-repeat)](#check-the-size-of-the-list-of-multiple-elements-ng-repeat)
 1. [Where is the asynchronous logic?](#where-is-the-asynchronous-logic)
 
 ---
 
-## Check the size of the list of multiple elements (ng-repeat)
+## Check the number of elements for a specific repeater (ng-repeat)
 
 ```javascript
 var todoListItems = element.all(by.repeater('item in list'));
