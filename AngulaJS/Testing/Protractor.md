@@ -1,7 +1,7 @@
 # Protractor
 
-1. Check the size of the list of multiple elements (ng-repeat)
-1. Where is the asynchronous logic?
+1. [Check the size of the list of multiple elements (ng-repeat)](#check-the-size-of-the-list-of-multiple-elements-ng-repeat)
+1. [Where is the asynchronous logic?](#where-is-the-asynchronous-logic)
 
 ---
 
