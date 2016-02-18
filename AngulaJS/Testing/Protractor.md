@@ -1,6 +1,6 @@
 # Protractor
 
-1. [Check the number of elements for a specific repeater (ng-repeat)](##check-the-number-of-elements-for-a-specific-repeater-ng-repeat)
+1. [Check the number of elements for a specific repeater (ng-repeat)](#check-the-number-of-elements-for-a-specific-repeater-ng-repeat)
 1. [Where is the asynchronous logic?](#where-is-the-asynchronous-logic)
 
 ---
