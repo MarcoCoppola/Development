@@ -2,15 +2,15 @@
 1. [Promise](#promise)
 1. [Select](#select) 
 1. [Style Guide](#style-guide)
-    * [File Names](#file-names)
-    * [Controller Names](#controller-names)
-    * [Controller Names Suffix](#controller-name-suffix)
-    * [Factory And Service Names](#factory-and-service-names)
-    * [Directive Component Names](#directive-component-names)
-    * [Modules](#modules)
-    * [Configuration](#configuration)
-    * [Routes](#routes)
 1. [Naming](#naming) 
+   * [File Names](#file-names)
+   * [Controller Names](#controller-names)
+   * [Controller Names Suffix](#controller-name-suffix)
+   * [Factory And Service Names](#factory-and-service-names)
+   * [Directive Component Names](#directive-component-names)
+   * [Modules](#modules)
+   * [Configuration](#configuration)
+   * [Routes](#routes)
 1. [Best Practies](#best-practies)
    * [Funzioni con un nome vs funzioni anonime](#funzioni-con-un-nome-vs-funzioni-anonime)
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
@@ -72,7 +72,7 @@ Creare un file `constants.js`
 
     *Why?*: The naming conventions should simply help you find your code faster and make it easier to understand.
 
-### Feature File Names
+### File Names
 
 Pattern is `feature.type.js`.
 *Why?*
