@@ -61,17 +61,6 @@ Creare un file `constants.js`
 
 ## Naming
 
-### Naming Guidelines
-###### [Style [Y120](#style-y120)]
-
-  - Use consistent names for all components following a pattern that describes the component's feature then (optionally) its type. My recommended pattern is `feature.type.js`. There are 2 names for most assets:
-    * the file name (`avengers.controller.js`)
-    * the registered component name with Angular (`AvengersController`)
-
-    *Why?*: Naming conventions help provide a consistent way to find content at a glance. Consistency within the project is vital. Consistency with a team is important. Consistency across a company provides tremendous efficiency.
-
-    *Why?*: The naming conventions should simply help you find your code faster and make it easier to understand.
-
 ### File Names
 
 Pattern is `feature.type.js`.
