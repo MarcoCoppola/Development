@@ -5,7 +5,6 @@
 1. [Naming](#naming) 
    * [File Names](#file-names)
    * [Controller Names](#controller-names)
-   * [Controller Names Suffix](#controller-name-suffix)
    * [Factory And Service Names](#factory-and-service-names)
    * [Directive Component Names](#directive-component-names)
    * [Modules](#modules)
@@ -104,47 +103,17 @@ Pattern is `feature.type.js`.
     ```
 
 ### Controller Names
-###### [Style [Y123](#style-y123)]
 
-  - Use consistent names for all controllers named after their feature. Use UpperCamelCase for controllers, as they are constructors.
-
-    *Why?*: Provides a consistent way to quickly identify and reference controllers.
-
-    *Why?*: UpperCamelCase is conventional for identifying object that can be instantiated using a constructor.
+Pattern: Use UpperCamelCase and the suffix `Controller`.
 
     ```javascript
-    /**
-     * recommended
-     */
-
-    // avengers.controller.js
     angular
         .module
-        .controller('HeroAvengersController', HeroAvengersController);
+        .controller('UserLoginController', UserLoginController);
 
-    function HeroAvengersController() { }
+    function UserLoginController() { }
     ```
-
-### Controller Name Suffix
-###### [Style [Y124](#style-y124)]
-
-  - Append the controller name with the suffix `Controller`.
-
-    *Why?*: The `Controller` suffix is more commonly used and is more explicitly descriptive.
-
-    ```javascript
-    /**
-     * recommended
-     */
-
-    // avengers.controller.js
-    angular
-        .module
-        .controller('AvengersController', AvengersController);
-
-    function AvengersController() { }
-    ```
-
+    
 ### Factory and Service Names
 ###### [Style [Y125](#style-y125)]
 
