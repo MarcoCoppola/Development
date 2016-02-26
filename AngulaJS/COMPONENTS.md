@@ -28,7 +28,7 @@ $scope.nameSelect = SELECT_INIT;
 * Method on change item:
 ``` Javascript
   /**
-  * Event when the province Select changes the selected value
+  * Event when the Name Select changes the selected value
   */
   function onChangedName()
   {
