@@ -30,7 +30,7 @@ $scope.nameSelect = SELECT_INIT;
   /**
   * Event when the Name Select changes the selected value
   */
-  function onChangedName()
+  function onChangeName()
   {
          
   }
@@ -40,7 +40,8 @@ $scope.nameSelect = SELECT_INIT;
   * With only value
   ``` HTML
    <select ng-options="item for item in nameSelect.options"
-           ng-model="nameSelect.selected">
+           ng-model="nameSelect.selected"
+           ng-change="onChangeName">
   ```
   * Selected the empty value option
   ``` HTML
