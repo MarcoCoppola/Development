@@ -8,9 +8,7 @@
 
 * Initialize the select
   ``` Javascript
-  SELECT_INIT: {selected: '', options: []}
-  
-  $scope.nameSelect = SELECT_INIT;
+  $scope.nameSelect = {selected: '', options: []};
   ```
 
 * Populate the select:
