@@ -25,6 +25,17 @@ $scope.nameSelect = SELECT_INIT;
     $scope.nameSelect.options = options;
   }
   ```
+* Method on change item:
+``` Javascript
+  /**
+  * Event when the province Select changes the selected value
+  */
+  function onChangedName()
+  {
+         
+  }
+  ```
+
 * View
   * With only value
   ``` HTML
