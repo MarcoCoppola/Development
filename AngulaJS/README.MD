@@ -104,15 +104,15 @@ Pattern is `feature.type.js`.
 
 ### Controller Names
 
-Pattern: Use UpperCamelCase and the suffix `Controller`.
+**Pattern**: Use UpperCamelCase and the suffix `Controller`.
 
-    ```javascript
+  ```javascript
     angular
         .module
         .controller('UserLoginController', UserLoginController);
 
     function UserLoginController() { }
-    ```
+  ```
     
 ### Factory and Service Names
 ###### [Style [Y125](#style-y125)]
