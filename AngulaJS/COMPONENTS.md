@@ -13,7 +13,7 @@ SELECT_INIT: {selected: '', options: []}
 $scope.nameSelect = SELECT_INIT;
 ```
 
-* Method to initialize the select:
+* Method to populate the select:
   
   ``` Javascript
   /**
