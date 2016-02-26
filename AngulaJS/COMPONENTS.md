@@ -5,15 +5,15 @@
 ---
 
 ## Select
-``` Javascript
-SELECT_INIT: {selected: '', options: []}
-```
 
-``` Javascript
-$scope.nameSelect = SELECT_INIT;
-```
+* Initialize the select
+  ``` Javascript
+  SELECT_INIT: {selected: '', options: []}
+  
+  $scope.nameSelect = SELECT_INIT;
+  ```
 
-* Method to populate the select:
+* Populate the select:
   
   ``` Javascript
   /**
