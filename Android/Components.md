@@ -20,3 +20,10 @@
     </style>
 ```
 
+* **View**
+``` xml
+ <Image
+     style="@style/MaterialDesign.Divider"
+     />
+```
+
