@@ -31,8 +31,7 @@ $scope.nameSelect = SELECT_INIT;
    <select ng-options="item for item in nameSelect.options"
            ng-model="nameSelect.selected">
   ```
-  * With key and value
+  * First option
   ``` HTML
-   <select ng-options="item for item in nameSelect.options"
-           ng-model="nameSelect.selected">
+    <option style="display:none" value="">Select...</option>
   ```
