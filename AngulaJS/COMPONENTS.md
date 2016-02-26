@@ -42,6 +42,7 @@
    <select ng-options="item for item in nameSelect.options"
            ng-model="nameSelect.selected"
            ng-change="onChangeName">
+    </select>
   ```
   * Selected the empty value option
   ``` HTML
