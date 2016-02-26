@@ -1,6 +1,6 @@
 # AngulaJS
+1. [Components](https://github.com/MaxTenco/Development/blob/master/AngulaJS/COMPONENTS.md) 
 1. [Promise](#promise)
-1. [Select](#select) 
 1. [Style Guide](#style-guide)
 1. [Naming](#naming) 
    * [File Names](#file-names)
@@ -21,22 +21,6 @@
 
 ## Promise
 - [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
-
----
-
-## Select
-``` javascript
-function initSelect(){
-  var options = ['A', 'B', 'C'];
-  $scope.select = {
-    selected: '',
-    options: options
-  };
-}
-```
-
-More information:
-- [A Brief Walk-through of the Ng-options in AngularJS](http://www.undefinednull.com/2014/08/11/a-brief-walk-through-of-the-ng-options-in-angularjs/)
 
 ---
 
