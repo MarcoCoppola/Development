@@ -17,9 +17,9 @@ $scope.nameSelect = SELECT_INIT;
   
   ``` Javascript
   /**
-  * Initializes the select of Name
+  * Populates the select of Name
   */
-  function initNameSelect()
+  function populateNameSelect()
   {
     var options = ['A', 'B', 'C'];
     $scope.nameSelect.options = options;
