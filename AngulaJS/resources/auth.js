@@ -3,7 +3,7 @@
     'use strict';
 
     angular
-        .module('')
+        .module('calendario-corsi')
         .factory('auth', auth);
 
     auth.$inject = ['$log'];
@@ -14,7 +14,8 @@
         return {
             login: login,
             logout: logout,
-            user: user
+            user: user,
+            check: check
         };
 
 
@@ -45,6 +46,16 @@
          * Get the currently authenticated user.
          */
         function user()
+        {
+
+        }
+
+        /**
+         * Determine if the current user is authenticated.
+         *
+         * @returns {bool} 
+         */
+        function check()
         {
 
         }
