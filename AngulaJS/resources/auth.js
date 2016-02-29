@@ -53,7 +53,7 @@
         /**
          * Determine if the current user is authenticated.
          *
-         * @returns {bool} 
+         * @returns {boolean} 
          */
         function check()
         {
