@@ -51,7 +51,7 @@
         }
 
         /**
-         * Determine if the current user is authenticated.
+         * Determine if a user is authenticated.
          *
          * @returns {boolean} 
          */
