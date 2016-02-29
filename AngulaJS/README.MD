@@ -99,7 +99,7 @@ Pattern is `feature.type.js`.
   ```
     
 ### Factory and Service Names
-###### [Style [Y125](#style-y125)]
+**Pattern**: Use camel-casing and the suffix `Service`.
 
   - Use consistent names for all factories and services named after their feature. Use camel-casing for services and factories. Avoid prefixing factories and services with `$`. Only suffix service and factories with `Service` when it is not clear what they are (i.e. when they are nouns).
 
