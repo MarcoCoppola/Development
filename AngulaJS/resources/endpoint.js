@@ -38,7 +38,7 @@
          * Generate the endpoint. 
          *
          * @param resource
-         * @param {array} [params = {}]
+         * @param {object} [params = {}]
          * @returns {string}
          */
         function getEndpoint(resource,params)
