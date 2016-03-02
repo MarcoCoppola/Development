@@ -99,7 +99,8 @@ exports.config = {
             isVerbose: true,
         }
 };
+```
 
 ### ngMockE2E
-Follow [link](https://docs.angularjs.org/api/ngMockE2E)
-```
+Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
+
