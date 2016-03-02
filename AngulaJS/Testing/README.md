@@ -9,6 +9,7 @@
   2. [Configuration](#configuration)
 1. [End-to-end Testing](#end-to-end-testing)
   * [Installing Testing Environment (Protractor)] (#installing-testing-environment)
+  * [ngMockE2E](#)
 
 ##Unit Testing
 ###Karma
@@ -98,4 +99,7 @@ exports.config = {
             isVerbose: true,
         }
 };
+
+### ngMockE2E
+Follow [link](https://docs.angularjs.org/api/ngMockE2E)
 ```
