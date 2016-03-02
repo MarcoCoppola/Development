@@ -102,5 +102,6 @@ exports.config = {
 ```
 
 ### ngMockE2E
+Follow this [link](#angular-mocks) to install.
 Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
 
