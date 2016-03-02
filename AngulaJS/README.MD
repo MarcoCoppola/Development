@@ -52,6 +52,12 @@ Pattern is `feature.type.js`.
 * Provides pattern matching for any automated tasks.
 
     ```javascript
+    // controllers
+    user.controller.js
+
+    // services/factories
+    user.service.js
+    
     // constants
     constants.js
 
