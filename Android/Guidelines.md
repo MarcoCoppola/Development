@@ -1,9 +1,10 @@
 # Guidelines
 
 1. [Naming Convention](#naming-convention)
-  - [Layout files](#layout-files)
-  - [ID Resources](#id-resources)
-  - [Style](#style)
+  * [Layout files](#layout-files)
+  * [ID Resources](#id-resources)
+  * [Style](#style)
+  * [Strings](#strings)
 
 1. [string.xml](#stringxml)
 1. Style
@@ -49,35 +50,18 @@
 Style names are written  in `UpperCamelCase`.
 
 ---
-## string.xml
-Name your strings with keys that resemble namespaces, and don't be afraid of repeating a value for two or more keys. Languages are complex, so namespaces are necessary to bring context and break ambiguity.
 
-**Bad**
-```xml
-<string name="network_error">Network error</string>
-<string name="call_failed">Call failed</string>
-<string name="map_failed">Map loading failed</string>
-```
+### Strings
+String names start with a prefix that identifies the section they belong to. For example `registration_email_hint` or `registration_name_hint`. If a string __doesn't belong__ to any section, then you should follow the rules below:
 
-**Good**
-```xml
-<string name="error.message.network">Network error</string>
-<string name="error.message.call">Call failed</string>
-<string name="error.message.map">Map loading failed</string>
-```
 
-Don't write string values in all uppercase. Stick to normal text conventions (e.g., capitalize first character). If you need to display the string in all caps, then do that using for instance the attribute [`textAllCaps`](http://developer.android.com/reference/android/widget/TextView.html#attr_android:textAllCaps) on a TextView.
+| Prefix             | Description                           |
+| -----------------  | --------------------------------------|
+| `error_`             | An error message                      |
+| `msg_`               | A regular information message         |
+| `title_`             | A title, i.e. a dialog title          |
+| `action_`            | An action such as "Save" or "Create"  |
 
-**Bad**
-```xml
-<string name="error.message.call">CALL FAILED</string>
-```
-
-**Good**
-```xml
-<string name="error.message.call">Call failed</string>
-```
----
 
 ## Style
 
