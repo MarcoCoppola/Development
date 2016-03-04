@@ -5,7 +5,7 @@
   - [ID Resources](#id-resources)
   - [Style](#style)
 
-1. [string.xml](#)
+1. [string.xml](#stringxml)
 1. Style
   - [Typografy](#typografy)
 
