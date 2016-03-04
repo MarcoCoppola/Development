@@ -1,10 +1,10 @@
 # Guidelines
 
 1. [Naming Convention](#naming-convention)
-  * [Layout files](#layout-files)
-  * [ID Resources](#id-resources)
-  * [Style](#style)
-  * [Strings](#strings)
+ * [Layout files](#layout-files)
+ * [ID Resources](#id-resources)
+ * [Style](#style)
+ * [Strings](#strings)
 
 1. [string.xml](#stringxml)
 1. Style
