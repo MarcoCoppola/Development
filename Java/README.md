@@ -7,7 +7,7 @@
 ## Default value
 
 | Data Type |	Default Value (for fields) |
-| --------- | -------------------------- |
+| :---------: | :--------------------------: |
 | byte | 0 |
 | short | 0 |
 | int	| 0 |
