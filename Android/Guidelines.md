@@ -1,6 +1,6 @@
 # Guidelines
 
-1. Naming Convention
+1. [Naming Convention](#naming-convention)
   - [Layout files](#layout-files)
   - [ID Resources](#id-resources)
   - [Style](#style)
