@@ -12,7 +12,7 @@ Fonte: https://dev.liferay.com/participate/javadoc-guidelines
 	- Get/search/count by Combined Field Value and Field-to-Keyword Matching
 	- Returning a boolean
 	- Returning a count
-	- [Returning a collection](#returning_collection)
+	- [Returning a collection](#returning-a-collection)
 	- Returning an ordered range of values
 	- Returning ordered values NOT as a range of values
 	- Returning a ranged collection
