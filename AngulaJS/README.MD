@@ -10,6 +10,7 @@
    * [Modules](#modules)
    * [Configuration](#configuration)
    * [Routes](#routes)
+1. [i18n](#i18n)
 1. [Best Practies](#best-practies)
    * [Funzioni con un nome vs funzioni anonime](#funzioni-con-un-nome-vs-funzioni-anonime)
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
@@ -169,7 +170,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
     // usage is <xx-avenger-profile> </xx-avenger-profile>
 
     function xxAvengerProfile() { }
-    ```
+  
 
 ### Modules
 ###### [Style [Y127](#style-y127)]
@@ -194,8 +195,10 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
 
   - Separate route configuration into its own file. Examples might be `app.route.js` for the main module and `admin.route.js` for the `admin` module. Even in smaller apps I prefer this separation from the rest of the configuration.
 
-**[Back to top](#table-of-contents)**
+---
 
+## i18n
+Follow this [link](https://docs.angularjs.org/guide/i18n) and [link](https://github.com/angular/angular.js/tree/master/src/ngLocale).
 
 ---
 
