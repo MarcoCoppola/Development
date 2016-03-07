@@ -170,8 +170,8 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
     // usage is <xx-avenger-profile> </xx-avenger-profile>
 
     function xxAvengerProfile() { }
-  
-```
+    ```  
+
 ### Modules
 
 
