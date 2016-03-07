@@ -52,9 +52,9 @@ public long getUserIdByEmailAddress( ... , String emailAddress)
 
 Precede the reference to the entity instances with the term “all the”.
 
-Method Description Pattern: Returns … all the <entities> …
+**Pattern**: Returns … all the <entities> …
 
-Return Tag Pattern: the somethingsof this thing (Note, do not refer to the collection type; instead, refer to the something in plural form)
+**Return Tag Pattern**: the somethingsof this thing (Note, do not refer to the collection type; instead, refer to the something in plural form)
 ```java
 /**
  * Returns all the organizations associated with the user.
