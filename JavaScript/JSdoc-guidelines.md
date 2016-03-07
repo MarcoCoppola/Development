@@ -2,7 +2,7 @@
 Table of Contents
 
 1. [@param](#param)
-2. [Type definitions](#)
+2. [Type definitions](#type-definitions)
 
 
 ---
