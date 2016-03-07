@@ -47,12 +47,14 @@ Fonte: https://dev.liferay.com/participate/javadoc-guidelines
  */
 public long getUserIdByEmailAddress( ... , String emailAddress)
 ```
- 
-### <a name="returning_collection"></a>Returning a collection
+
+---
+
+### Returning a collection
 
 Precede the reference to the entity instances with the term “all the”.
 
-**Pattern**: Returns … all the <entities> …
+**Pattern**: Returns all the <entities> …
 
 **Return Tag Pattern**: the somethingsof this thing (Note, do not refer to the collection type; instead, refer to the something in plural form)
 ```java
@@ -64,6 +66,8 @@ Precede the reference to the entity instances with the term “all the”.
  */
 public List<Organization> getUserOrganizations(long userId)
 ```
+
+---
 
 Parameter
 
