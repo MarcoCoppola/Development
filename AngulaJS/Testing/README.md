@@ -10,6 +10,7 @@
 1. [End-to-end Testing](#end-to-end-testing)
   * [Installing Testing Environment (Protractor)] (#installing-testing-environment)
   * [ngMockE2E](#ngmocke2e)
+1. [Endpoint with Regular Expressions]()
 
 ##Unit Testing
 ###Karma
@@ -105,3 +106,9 @@ exports.config = {
 Follow this [link](#angular-mocks) to install.
 Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
 
+---
+
+##Endpoint with Regular Expressions
+|URL|Regular Espressions|
+|:-----:|:---------------------:|
+|`/user/1234/article/567`|`/\/user\/(.+)\/article\/(.+)/`|
