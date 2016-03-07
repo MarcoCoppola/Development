@@ -171,7 +171,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
 
     function xxAvengerProfile() { }
   
-
+```
 ### Modules
 
 
