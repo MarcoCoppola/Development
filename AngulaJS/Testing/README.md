@@ -111,4 +111,5 @@ Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
 ##Endpoint with Regular Expressions
 |URL|Regular Espressions|
 |:-----:|:---------------------:|
+|`/user/1234`|`/\/user\/(.+)\//`|
 |`/user/1234/article/567`|`/\/user\/(.+)\/article\/(.+)/`|
