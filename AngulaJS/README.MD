@@ -151,7 +151,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
     ```
 
 ### Directive Component Names
-###### [Style [Y126](#style-y126)]
+
 
   - Use consistent names for all directives using camel-case. Use a short prefix to describe the area that the directives belong (some example are company prefix or project prefix).
 
@@ -173,7 +173,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
   
 
 ### Modules
-###### [Style [Y127](#style-y127)]
+
 
   - When there are multiple modules, the main module file is named `app.module.js` while other dependent modules are named after what they represent. For example, an admin module is named `admin.module.js`. The respective registered module names would be `app` and `admin`.
 
@@ -182,7 +182,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
     *Why?*: Provides easy way to use task automation to load all module definitions first, then all other angular files (for bundling).
 
 ### Configuration
-###### [Style [Y128](#style-y128)]
+
 
   - Separate configuration for a module into its own file named after the module. A configuration file for the main `app` module is named `app.config.js` (or simply `config.js`). A configuration for a module named `admin.module.js` is named `admin.config.js`.
 
@@ -191,7 +191,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
     *Why?*: Provides an identifiable place to set configuration for a module.
 
 ### Routes
-###### [Style [Y129](#style-y129)]
+
 
   - Separate route configuration into its own file. Examples might be `app.route.js` for the main module and `admin.route.js` for the `admin` module. Even in smaller apps I prefer this separation from the rest of the configuration.
 
