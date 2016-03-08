@@ -114,6 +114,7 @@ Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
 |:-----:|---------------------|
 |/| Delimiter of regular expression.|
 |\/| To equalvent `\` **backslash**.|
+| `()`| Defines a group|
 
 
 |URL|Regular Espressions|
