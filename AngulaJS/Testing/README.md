@@ -120,5 +120,6 @@ Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
 |URL|Regular Espressions|
 |:-----:|:---------------------:|
 |`/user?`|`/\/user[?]$/`|
+|`/user?date=123456&`|`/\/corsi\?((date)=\d{1,}&?)/`|
 |`/user/1234`|`/\/user\/(.+)\//`|
 |`/user/1234/article/567`|`/\/user\/(.+)\/article\/(.+)/`|
