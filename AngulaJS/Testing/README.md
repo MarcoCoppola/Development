@@ -109,8 +109,11 @@ Follow this [link](https://docs.angularjs.org/api/ngMockE2E)
 ---
 
 ##Endpoint with Regular Expressions
-* **/** Delimiter of regular expression.
-* **\/** to equalvent `\` **backslash**.
+
+|URL|Regular Espressions|
+|:-----:|---------------------|
+|/| Delimiter of regular expression.|
+|\/| To equalvent `\` **backslash**.|
 
 
 |URL|Regular Espressions|
