@@ -47,16 +47,19 @@
     <option style="display:none" value="">Select...</option>
   ```
 
-* **ng-options**  
-| For array data sources |
-| ---------------------- |
-| label for value in array|
-|select as label for value in array|
-|label group by group for value in array|
-|label disable when disable for value in array|
-|label group by group for value in array track by trackexpr|
-|label disable when disable for value in array track by trackexpr|
-|label for value in array | orderBy:orderexpr track by trackexpr (for including a filter with track by)|
+* **ng-options** 
+
+
+| For array data sources                                                                                 |
+|--------------------------------------------------------------------------------------------------------|
+| label for value in array                                                                               |
+| select as label for value in array                                                                     |
+| label group by group for value in array                                                                |
+| label disable when disable for value in array                                                          |
+| label group by group for value in array track by trackexpr                                             |
+| label disable when disable for value in array track by trackexpr                                       |
+| label for value in array | orderBy:orderexpr track by trackexpr (for including a filter with track by) |
+
 
 |For object data sources|
 | --------------------- |
