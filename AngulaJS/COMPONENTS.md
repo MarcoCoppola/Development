@@ -23,7 +23,7 @@
     $scope.nameSelect.options = options;
   }
   ```
-* **Method on change item:*
+* **Method on change item:**
 ``` Javascript
   /**
   * Event when the Name Select changes the selected value
