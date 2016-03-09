@@ -23,7 +23,7 @@
     $scope.nameSelect.options = options;
   }
   ```
-###Method on change item:
+* **Method on change item:*
 ``` Javascript
   /**
   * Event when the Name Select changes the selected value
@@ -34,7 +34,7 @@
   }
   ```
 
-###View
+* **View**
   * With only value
   ``` HTML
    <select ng-options="item for item in nameSelect.options"
@@ -47,7 +47,7 @@
     <option style="display:none" value="">Select...</option>
   ```
 
-#### ng-options  
+* **ng-options**  
 | For array data sources |
 | ---------------------- |
 | label for value in array|
