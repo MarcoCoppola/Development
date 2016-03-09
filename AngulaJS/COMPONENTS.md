@@ -6,12 +6,12 @@
 
 ## Select
 
-###Initialize the select
+* **Initialize the select**
   ``` Javascript
   $scope.nameSelect = {selected: '', options: []};
   ```
 
-###Populate the select:
+* **Populate the select:**
   
   ``` Javascript
   /**
