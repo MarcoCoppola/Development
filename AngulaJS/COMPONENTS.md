@@ -64,7 +64,7 @@
 |For object data sources| HTML |
 | --------------------- | ----- |
 |label for (key , value) in object|  |
-|select as label for (key , value) in object | `key as value for (key , value) in object` `<option value="key">value</option>`|
+|select as label for (key , value) in object | `key as value for (key , value) in object`  `<option value="key">value</option>`|
 |label group by group for (key, value) in object|
 |label disable when disable for (key, value) in object|
 |select as label group by group for (key, value) in object|
