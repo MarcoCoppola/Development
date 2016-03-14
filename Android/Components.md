@@ -22,7 +22,7 @@
 
 * **View**
 ``` xml
- <Image
+  <ImageView
      style="@style/Material.Divider"
      />
 ```
