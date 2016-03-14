@@ -6,7 +6,6 @@
  * [Style](#style)
  * [Strings](#strings)
 
-1. [string.xml](#stringxml)
 1. Style
   - [Typografy](#typografy)
 
