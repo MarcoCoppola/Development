@@ -2,7 +2,7 @@
 
 
 1. [Default value](#default-value)
-2. [Java String format]()
+2. [Java String format](#java-string-format)
 
 
 ## Default value
