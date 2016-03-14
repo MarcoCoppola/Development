@@ -1,5 +1,5 @@
 # AngulaJS
-1. [Components](https://github.com/MaxTenco/Development/blob/master/AngulaJS/COMPONENTS.md) 
+1. [Components](https://github.com/MaxTenco/Development/blob/master/AngulaJS/components.md) 
 1. [Promise](#promise)
 1. [Style Guide](#style-guide)
 1. [Naming](#naming) 
