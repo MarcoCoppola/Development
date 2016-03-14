@@ -2,6 +2,7 @@
 
 
 1. [Default value](#default-value)
+2. [Java String format]()
 
 
 ## Default value
@@ -17,3 +18,7 @@
 | char	| '\u0000' |
 | String (or any object) | null |
 | boolean	| false |
+
+
+## Java String format
+See the below [link](#https://examples.javacodegeeks.com/core-java/lang/string/java-string-format-example/)
