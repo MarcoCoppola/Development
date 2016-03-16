@@ -391,10 +391,11 @@ Elements that are not in the DOM have less performance impact and your web app m
 
 > Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide, the question you need to answer is whether you can remove element from DOM or not?
 ```
+
 ---
 
-### PROPLEMS
-## CORS
+## PROPLEMS
+### CORS
 View the [link](#http://stackoverflow.com/questions/33660712/angularjs-post-fails-response-for-preflight-has-invalid-http-status-code-404)
 
 ---
