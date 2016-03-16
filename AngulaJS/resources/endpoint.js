@@ -48,11 +48,12 @@
 
             // Add resource
             endpoints += resource;
-            endpoints += '?';
 
             // Add parameters
             if (Object.keys(params).length)
             {
+                endpoints += '?';
+                
                 Object.keys(params).forEach(function(key)
                 {
                     var value = params[key];
