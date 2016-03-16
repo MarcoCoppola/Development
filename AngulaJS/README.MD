@@ -16,6 +16,8 @@
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
+1. [Problems](#problems)
+    * [CORS](#cors)
 1. [Check the used version](#check-the-used-version)
 1. [Links](#links) 
  
@@ -388,6 +390,14 @@ ng-if creates a child scope while ng-show/ng-hide does not
 Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide
 
 > Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide, the question you need to answer is whether you can remove element from DOM or not?
+```
+---
+
+### PROPLEMS
+## CORS
+View the [link](#http://stackoverflow.com/questions/33660712/angularjs-post-fails-response-for-preflight-has-invalid-http-status-code-404)
+
+---
 
 ### Check the used version
 Angular does not have a command line tool.
