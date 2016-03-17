@@ -1,9 +1,23 @@
 # ANDROID
-
-1. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
-1. [Best Practices](#best-practices)
+1. [Tips and tricks]()
+ * [Hide Keyboard]() 
+2. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
+3. [Best Practices](#best-practices)
   * [Java packages architecture] (#java-packages-architecture)
-1. [Link](#link) 
+4. [Link](#link) 
+
+
+---
+## TIPS AND TRICKS
+### Hide Keyboard
+* In Fragment
+``` java
+private void hideKeyboard()
+    {
+        final InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(getView().getWindowToken(), 0);
+    }
+```
 
 ---
 
