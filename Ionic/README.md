@@ -12,10 +12,14 @@ See the follow link: [End-to-end testing an Ionic application with Appium and Pr
 
 ---
 
-## UPDATE 
+## UPDATE
+
 ###IONIC
+
 For updating Ionic you can use `ionic lib update` to console.
+
 ### Plugins
+
 For updating Plugins Ionic you can use `ionic state reset` to console.
 ---
 
