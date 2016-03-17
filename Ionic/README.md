@@ -1,6 +1,6 @@
 # Ionic
 1. [End-to-end testing with Appium and Protractor](#end-to-end-testing-with-appium-and-protractor)
-2. [Update Ionic](#)
+2. [Update Ionic](#update-ionic)
 
 ---
 
