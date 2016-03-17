@@ -1,6 +1,6 @@
 # ANDROID
-1. [Tips and tricks]()
- * [Hide Keyboard]() 
+1. [Tips and tricks](#tips-and-tricks)
+ * [Hide Keyboard](#hide-keyboard) 
 2. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 3. [Best Practices](#best-practices)
   * [Java packages architecture] (#java-packages-architecture)
