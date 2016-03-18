@@ -1,6 +1,6 @@
 # Ionic
-1. [Tips and Tricks]
-   * Hide Back Button and show Menu Batton 
+1. [Tips and Tricks](#tips-and-tricks)
+   * [Hide Back Button and show Menu Batton](#hide-back-button-and-show-menu-batton) 
 1. [End-to-end testing with Appium and Protractor](#end-to-end-testing-with-appium-and-protractor)
 2. [Update](#update)
     * [Ionic](#ionic-1)
@@ -10,8 +10,10 @@
 ---
 ##TIPS AND TRICKS
 ### Hide Back Button and show Menu Batton 
-Insert `hide-back-button="true"` in `ion-view` tag on the child view.
-In the menu.html set this: `<ion-side-menus enable-menu-with-back-views="true">`
+* Insert `hide-back-button="true"` in `ion-view` tag on the child view.
+
+* In the menu.html set this: `<ion-side-menus enable-menu-with-back-views="true">`.
+
 
 ---
 ## End-to-end testing with Appium and Protractor
