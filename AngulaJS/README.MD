@@ -16,8 +16,7 @@
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
-1. [Problems](#problems)
-    * [CORS](#cors)
+1. [CORS](#cors)
 1. [Check the used version](#check-the-used-version)
 1. [Links](#links) 
  
@@ -394,9 +393,12 @@ Elements that are not in the DOM have less performance impact and your web app m
 
 ---
 
-## PROPLEMS
-### CORS
+## CORS
 View the [link](#http://stackoverflow.com/questions/33660712/angularjs-post-fails-response-for-preflight-has-invalid-http-status-code-404)
+
+* Enable CROSS-ORIGIN requests  in Angular and Server.
+* By default the cookies are not send in CROSS-ORIGIN => set withCredential = true
+* [link](https://metabroadcast.com/blog/moving-engage-to-angularjs-having-fun-with-cors)
 
 ---
 
