@@ -54,13 +54,18 @@
             {
                 endpoints += '?';
                 
-                Object.keys(params).forEach(function(key)
+                 Object.keys(params).forEach(function(key, index, array)
                 {
                     var value = params[key];
 
-                    if (value != null)
+                    if (value !== null && value !== undefined)
                     {
-                        endpoints += key + '=' + value + '&';
+                        endpoints += key + '=' + value;
+
+                        if (index !== array.length - 1)
+                        {
+                            endpoints += '&'
+                        }
                     }
                 });
             }
