@@ -4,7 +4,7 @@
 2. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 3. [Best Practices](#best-practices)
   * [Java packages architecture] (#java-packages-architecture)
-  * [Handler Volley Error]
+  * [Handler Volley Error](#handler-volley-error)
 4. [Link](#link) 
 
 
