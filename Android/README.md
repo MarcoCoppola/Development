@@ -53,3 +53,4 @@ project
 ## Link
 * [Android Push Notifications using GCM, PHP & MySQL – Realtime Chat App](http://www.androidhive.info/2016/02/android-push-notifications-using-gcm-php-mysql-realtime-chat-app-part-1/)
 * [Top 10 Most Common Mistakes That Android Developers Make: A Programming Tutorial] (http://www.toptal.com/android/top-10-most-common-android-development-mistakes)
+* [RecyclerView Database Example | Slidenerd](https://www.youtube.com/watch?v=mxmAWsAMHgw&feature=em-subs_digest)
