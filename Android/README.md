@@ -4,6 +4,7 @@
 2. [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 3. [Best Practices](#best-practices)
   * [Java packages architecture] (#java-packages-architecture)
+  * [Handler Volley Error]
 4. [Link](#link) 
 
 
@@ -47,7 +48,25 @@ project
    └─ notifications
 ```
 
-
+### Handler Volley Error
+``` java
+ if (error instanceof TimeoutError || error instanceof NoConnectionError)
+        {
+            //TODO
+        } else if (error instanceof AuthFailureError)
+        {
+            //TODO
+        } else if (error instanceof ServerError)
+        {
+             //TODO
+        } else if (error instanceof NetworkError)
+        {
+            //TODO
+        } else if (error instanceof ParseError)
+        {
+            //TODO
+        }
+```
 ---
 
 ## Link
