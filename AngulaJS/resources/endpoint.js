@@ -49,23 +49,23 @@
             // Add resource
             endpoints += resource;
 
-            // Add parameters
+            / // Add parameters
             if (Object.keys(params).length)
             {
                 endpoints += '?';
-                
-                 Object.keys(params).forEach(function(key, index, array)
+
+                Object.keys(params).forEach(function(key, index, array)
                 {
                     var value = params[key];
 
                     if (value !== null && value !== undefined)
                     {
-                        endpoints += key + '=' + value;
-
-                        if (index !== array.length - 1)
+                        if (index > 0)
                         {
                             endpoints += '&'
                         }
+
+                        endpoints += key + '=' + value;
                     }
                 });
             }
