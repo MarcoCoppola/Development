@@ -61,7 +61,8 @@ String names start with a prefix that identifies the section they belong to. For
 | `title_`             | A title, i.e. a dialog title          |
 | `action_`            | An action such as "Save" or "Create"  |
 
-
+è `&#232;`
+à `&#224;`
 ## Style
 
 ### Typografy
