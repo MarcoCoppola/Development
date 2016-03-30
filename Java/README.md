@@ -3,7 +3,7 @@
 
 1. [Default value](#default-value)
 2. [Java String format](#java-string-format)
-3. [Class of Constants]()
+3. [Class of Constants](#class-of-constants)
 
 ---
 
@@ -26,7 +26,9 @@
 ## Java String format
 See the below [link](#https://examples.javacodegeeks.com/core-java/lang/string/java-string-format-example/)
 
+
 ---
+
 
 ## Class of Constants
 ``` java
