@@ -24,7 +24,7 @@
 ---
 
 ## Java String format
-See the below [link](#https://examples.javacodegeeks.com/core-java/lang/string/java-string-format-example/)
+See the below [link](https://examples.javacodegeeks.com/core-java/lang/string/java-string-format-example/)
 
 
 ---
