@@ -50,10 +50,10 @@
 * **ng-options** 
 
 
-| For array data sources                                                                                 |
-|--------------------------------------------------------------------------------------------------------|
-| label for value in array                                                                               |
-| select as label for value in array                                                                     |
+| For array data sources | Exaple |
+|------------------------| ------ |
+| label for value in array |
+| select as label for value in array | `ng-options="option.key as option.label for option in arrayName"`</br> `<option value="key">value</option>` |
 | label group by group for value in array                                                                |
 | label disable when disable for value in array                                                          |
 | label group by group for value in array track by trackexpr                                             |
@@ -62,7 +62,7 @@
 
 
 |For object data sources| Example |
-| --------------------- | ----- |
+| --------------------- | ------- |
 |label for (key , value) in object|  |
 |select **as** label **for** (key , value) **in** object | `key as value for (key, value) in object` </br> `<option value="key">value</option>` |
 |label group by group for (key, value) in object|
