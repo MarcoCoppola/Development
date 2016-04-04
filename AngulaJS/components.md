@@ -39,7 +39,7 @@
   ``` HTML
    <select ng-options="item for item in nameSelect.options"
            ng-model="nameSelect.selected"
-           ng-change="onChangeName()">
+           ng-change="onNameChange()">
     </select>
   ```
   * Selected the empty value option
