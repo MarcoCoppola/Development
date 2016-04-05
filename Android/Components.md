@@ -42,7 +42,7 @@ app:menu attribute is the menu resource for the navigation items (which can also
 Layout used for the header. It's optional.
 This View is basically the top part of the navigation drawer, which holds the profile picture, name and email etc. You need to define this in a separate layout file we would look into that in just a moment.
 
-** /res/layout/nav_header.xml **
+**/res/layout/nav_header.xml**
 
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
