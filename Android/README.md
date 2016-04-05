@@ -31,21 +31,20 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 
 + [Avoid Nested weights](http://www.rapidvaluesolutions.com/tech_blog/best-practices-for-android-user-interface/)
 
+---
+
 ### Java packages architecture
 ```
 project
-|─ activity
-├─ fragment
-├─ network
-├─ model
+├─ activities
+├─ adapters
+├─ fragments
+├─ helpers
+├─ interfaces
+├─ models
 ├─ manager
-├─ helper
-└─ view
-   ├─ dialogs
-   ├─ adapters
-   ├─ actionbar
-   ├─ widgets
-   └─ notifications
+├─ network
+├─ services
 ```
 
 ### Handler Volley Error
