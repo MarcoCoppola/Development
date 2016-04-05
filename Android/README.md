@@ -74,3 +74,4 @@ project
 * [Top 10 Most Common Mistakes That Android Developers Make: A Programming Tutorial] (http://www.toptal.com/android/top-10-most-common-android-development-mistakes)
 * [RecyclerView Database Example | Slidenerd](https://www.youtube.com/watch?v=mxmAWsAMHgw&feature=em-subs_digest)
 * [An Introduction to Model View Presenter on Android](http://code.tutsplus.com/tutorials/an-introduction-to-model-view-presenter-on-android--cms-26162)
+* [Material Design Android Snackbar Tutorial](http://www.survivingwithandroid.com/2016/03/android-snackbar-tutorial.html)
