@@ -38,6 +38,19 @@ You can nflate your navigation items through a menu resource.
 app:headerLayout attribute controls the (optional) layout used for the header.
 app:menu attribute is the menu resource for the navigation items (which can also be updated at runtime).
 
+### Style
+**\res\values\dimens.xml**
+``` xml
+ <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+```
+
 ### Header
 Layout used for the header. It's optional.
 This View is basically the top part of the navigation drawer, which holds the profile picture, name and email etc. You need to define this in a separate layout file we would look into that in just a moment.
