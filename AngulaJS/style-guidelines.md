@@ -13,7 +13,6 @@
 2. [Constants](#constants)
 
 ---
----
 
 ## Naming
 
