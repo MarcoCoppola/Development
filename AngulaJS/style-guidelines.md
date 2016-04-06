@@ -169,7 +169,7 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
 ## Constants
 Creare un file `constants.js`. 
 
-Il nome deve essere **plurale** perhcè indicano una collezione. 
+Il nome deve essere **plurale** perchè indicano una collezione. 
 
 ```javascript
     // Costanti usate nel modulo foo
