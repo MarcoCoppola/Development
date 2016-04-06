@@ -1,7 +1,7 @@
 # ANDROID
 1. [Tips and tricks](#tips-and-tricks)
  * [Hide Keyboard](#hide-keyboard)
- * [Starting new Activity]()
+ * [Starting new Activity](#starting-new-activity)
 3. [Best Practices](#best-practices)
   * [Java packages architecture] (#java-packages-architecture)
   * [Handler Volley Error](#handler-volley-error)
