@@ -1,6 +1,7 @@
 # ANDROID
 1. [Tips and tricks](#tips-and-tricks)
- * [Hide Keyboard](#hide-keyboard) 
+ * [Hide Keyboard](#hide-keyboard)
+ * [Starting new Activity]()
 3. [Best Practices](#best-practices)
   * [Java packages architecture] (#java-packages-architecture)
   * [Handler Volley Error](#handler-volley-error)
@@ -19,7 +20,13 @@ private void hideKeyboard()
         imm.hideSoftInputFromWindow(getView().getWindowToken(), 0);
     }
 ```
-
+---
+### Starting new Activity
+#### From Activity
+``` java
+Intent intent = new Intent(FromActivity.this, ToActivity.class);
+startActivity(intent);
+```
 ---
 
 ## Best Practices
