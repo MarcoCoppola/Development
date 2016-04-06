@@ -46,7 +46,6 @@ Pattern is `feature.type.js`.
     ```
 
 ### Test File Names
-###### [Style [Y122](#style-y122)]
 
   - Name test specifications similar to the component they test with a suffix of `spec`.
 
@@ -123,7 +122,6 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
 
 ### Directive Component Names
 
-
   - Use consistent names for all directives using camel-case. Use a short prefix to describe the area that the directives belong (some example are company prefix or project prefix).
 
     *Why?*: Provides a consistent way to quickly identify and reference components.
@@ -169,7 +167,9 @@ Avoid prefixing factories and services with `$`. Only suffix service and factori
 ---
 
 ## Constants
-Creare un file `constants.js`. Il nome deve essere plurale se indicano una collezione o singolare se uno stato. 
+Creare un file `constants.js`. 
+
+Il nome deve essere **plurale** perhcè indicano una collezione. 
 
 ```javascript
     // Costanti usate nel modulo foo
