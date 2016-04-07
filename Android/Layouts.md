@@ -5,7 +5,7 @@
 3. [TableLayout](#tablelayout)
 4. [GridLayout](#gridlayout)
 5. [RelativeLayout](#relativelayout)
-6. [ScrollView](#ScrollView)
+6. [ScrollView](#scrollview)
 
 ---
 ##FrameLayout
