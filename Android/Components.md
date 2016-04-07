@@ -2,6 +2,7 @@
 
 1. [Dividers](#dividers)
 2. [Navigation View](#navigation-view)
+3. [RecyclerView]()
 
 ---
 
@@ -168,4 +169,8 @@ NavigationView should go inside DrawerLayout.
 
 </android.support.v4.widget.DrawerLayout>
 ```
+---
 
+## RecyclerView
+
+---
