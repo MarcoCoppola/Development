@@ -1,10 +1,11 @@
 # Android Layouts
 
 1. [FrameLayout](#framelayout)
-1. [LinearLayout](#linearlayout)
-1. [TableLayout](#tablelayout)
-1. [GridLayout](#gridlayout)
-1. [RelativeLayout](#relativelayout)
+2. [LinearLayout](#linearlayout)
+3. [TableLayout](#tablelayout)
+4. [GridLayout](#gridlayout)
+5. [RelativeLayout](#relativelayout)
+6. [ScrollView](#ScrollView)
 
 ---
 ##FrameLayout
@@ -38,3 +39,19 @@ Column width automatically adjusts based on the size of the column with maximum 
 ---
 
 ## RelativeLayout
+
+---
+
+## ScrollView
+
+``` xml
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    
+    <!-- Include layout -->
+    
+</ScrollView>
+```
+
