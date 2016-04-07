@@ -1,6 +1,6 @@
 # Ionic
 1. [Tips and Tricks](#tips-and-tricks)
-  * [Reload the current view]()
+  * [Reload the current view](#reload-the-current-view)
   * [Hide Back Button and show Menu Batton](#hide-back-button-and-show-menu-batton)
 1. [End-to-end testing with Appium and Protractor](#end-to-end-testing-with-appium-and-protractor)
 2. [Update](#update)
