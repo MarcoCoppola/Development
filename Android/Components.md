@@ -174,12 +174,66 @@ NavigationView should go inside DrawerLayout.
 ## RecyclerView
 
 ### xml
+* RecyclerView
 ``` xml
   <android.support.v7.widget.RecyclerView
                 android:id="@+id/recycler_name"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 />
+```
+
+* Create `row_name.xml`
+
+
+### Adapter
+```java
+public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder>
+{
+    private ArrayList<name> mNameList;
+    private LayoutInflater mInflater;
+    
+    public NameAdapter(Context context)
+    {
+        mNameList = new ArrayList<>();
+        mInflater = LayoutInflater.from(context);
+    }
+    
+    public void setNameList(ArrayList<Fermata> fermataList)
+    {
+        this.mNameList = nameList;
+        notifyItemChanged(0, nameList.size());
+    }
+    
+    @Override
+    public NameAdapter onCreateViewHolder(ViewGroup parent, int viewType)
+    {
+        View view = mInflater.inflate(R.layout.row_name, parent, false);  // Rappresenta la root della vista
+        
+        return new NameViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(FermataViewHolder holder, int position)
+    {
+
+    }
+
+    @Override
+    public int getItemCount()
+    {
+        return mNameList.size();
+    }
+
+    public static class NameViewHolder extends RecyclerView.ViewHolder
+    {
+        public NameViewHolder(View itemView)
+        {
+            super(itemView);
+        }
+    }
+}
+
 ```
 
 ### Initializing
