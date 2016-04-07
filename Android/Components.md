@@ -2,7 +2,7 @@
 
 1. [Dividers](#dividers)
 2. [Navigation View](#navigation-view)
-3. [RecyclerView]()
+3. [RecyclerView](#recyclerview)
 
 ---
 
