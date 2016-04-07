@@ -184,13 +184,13 @@ NavigationView should go inside DrawerLayout.
 
 ### Initializing
 
-* In onCreate method
+* In `onCreate()` method
 ``` java
   // Initializing RecyclerView
   initRecyclerView();
 ```
 
-* initRecyclerView method
+* `initRecyclerView` method
 ``` java
  private void initRecyclerView()
     {
