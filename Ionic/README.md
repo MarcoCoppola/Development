@@ -1,6 +1,7 @@
 # Ionic
 1. [Tips and Tricks](#tips-and-tricks)
-   * [Hide Back Button and show Menu Batton](#hide-back-button-and-show-menu-batton) 
+  * [Reload the current view]()
+  * [Hide Back Button and show Menu Batton](#hide-back-button-and-show-menu-batton)
 1. [End-to-end testing with Appium and Protractor](#end-to-end-testing-with-appium-and-protractor)
 2. [Update](#update)
     * [Ionic](#ionic-1)
@@ -9,6 +10,11 @@
 
 ---
 ##TIPS AND TRICKS
+### Reload the current view
+``` javascript
+$state.go($state.current, {}, {reload: true});
+```
+
 ### Hide Back Button and show Menu Batton 
 * Insert `hide-back-button="true"` in `ion-view` tag on the child view.
 
