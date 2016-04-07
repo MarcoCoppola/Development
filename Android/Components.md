@@ -173,4 +173,36 @@ NavigationView should go inside DrawerLayout.
 
 ## RecyclerView
 
+### xml
+``` xml
+  <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+```
+
+### Initializing
+
+* In onCreate method
+``` java
+  // Initializing RecyclerView
+  initRecyclerView();
+```
+
+* initRecyclerView method
+``` java
+ private void initRecyclerView()
+    {
+        // Initializing Adapeter
+        mAdapter = new nameAdapter(this.getContext());
+        
+        // Initializing RecyclerView
+        LinearLayoutManager llm = new LinearLayoutManager(this.getContext());
+        llm.setOrientation(LinearLayoutManager.VERTICAL);
+        mRecyclerView.setLayoutManager(llm);
+
+        mRecyclerView.setAdapter(mAdapter);
+    }
+```
 ---
