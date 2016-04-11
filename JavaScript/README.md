@@ -9,8 +9,15 @@
 --- 
 
 ## Default value
+### Default parameters in EcmaScript 2015
+Default function parameters allow formal parameters to be initialized with default values if no value or undefined is passed.
+From ES6/ES2015, default parameters is in the language specification.
 
-
+``` javascript
+function read_file(file, delete_after = false) {
+  // Code
+}
+```
 
 ---
 
