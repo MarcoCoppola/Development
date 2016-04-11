@@ -1,5 +1,5 @@
 # JavaScript
-1. [Default value and parameters](#default-value)
+1. [Default value and parameters](#default-value-and-parameters)
 2. [Functions](#functions)
  * [Patterns of invocation in Javascript](#patterns-of-invocation-in-javascript)
  * [Function Declarations vs. Function Expressions](#function-declarations-vs-function-expressions)
