@@ -1,9 +1,18 @@
 # JavaScript
-1. [Functions](#functions)
+1. [Default value](#default-value)
+2. [Functions](#functions)
  * [Patterns of invocation in Javascript](#patterns-of-invocation-in-javascript)
  * [Function Declarations vs. Function Expressions](#function-declarations-vs-function-expressions)
-1. [IIFE - Immediately-Invoked Function Expression](#iife) 
-1. [Strict Mode](#strict-mode)
+3. [IIFE - Immediately-Invoked Function Expression](#iife) 
+4. [Strict Mode](#strict-mode)
+
+--- 
+
+## Default value
+
+
+
+---
 
 ##Functions
 Le funzioni sono oggetti. Possono essere memorizzati in variabili, oggetti ed array.
