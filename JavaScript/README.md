@@ -1,5 +1,5 @@
 # JavaScript
-1. [Default value](#default-value)
+1. [Default value and parameters](#default-value)
 2. [Functions](#functions)
  * [Patterns of invocation in Javascript](#patterns-of-invocation-in-javascript)
  * [Function Declarations vs. Function Expressions](#function-declarations-vs-function-expressions)
@@ -8,7 +8,8 @@
 
 --- 
 
-## Default value
+## Default value and parameters
+### Default value
 ### Default parameters in EcmaScript 2015
 Default function parameters allow formal parameters to be initialized with default values if no value or undefined is passed.
 From ES6/ES2015, default parameters is in the language specification.
