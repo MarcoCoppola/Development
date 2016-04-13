@@ -2,7 +2,6 @@
 
 **Table of Contents**
 
-
 1. [Naming](#naming)
  * [Layout files](#layout-files)
  * [ID Resources](#id-resources)
