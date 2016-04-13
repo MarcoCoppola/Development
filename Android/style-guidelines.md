@@ -5,7 +5,7 @@
 1. [Naming](#naming)
  * [Layout files](#layout-files)
  * [ID Resources](#id-resources)
- * [String constants, naming, and values]()
+ * [String constants, naming, and values](#string-constants-naming-and-values)
  * [Style](#style)
  * [Strings](#strings)
 
