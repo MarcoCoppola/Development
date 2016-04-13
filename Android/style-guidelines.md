@@ -1,6 +1,9 @@
-# Guidelines
+#Style Guidelines
 
-1. [Naming Convention](#naming-convention)
+**Table of Contents**
+
+
+1. [Naming](#naming)
  * [Layout files](#layout-files)
  * [ID Resources](#id-resources)
  * [Style](#style)
@@ -11,7 +14,7 @@
 
 ---
 
-## Naming Convention
+## Naming
 
 ### Layout files
 
