@@ -4,6 +4,7 @@
 
 1. [Naming](#naming)
  * [Layout files](#layout-files)
+ * [Menu files]
  * [ID Resources](#id-resources)
  * [String constants, naming, and values](#string-constants-naming-and-values)
  * [Style](#style)
@@ -24,6 +25,13 @@
 | Fragment         | `fragment_<FRAGMENT_NAME>`  | `fragment_sign_up.xml`        |
 | Dialog           | `dialog_<DIALOG_NAME>`      | `dialog_change_password.xml`  |
 | AdapterView row  | `row_<LIST_NAME>`           | `item_person.xml`             |
+
+---
+### Menu files
+
+Similar to layout files, menu files should match the name of the component. For example, if we are defining a menu file that is going to be used in the `UserActivity`, then the name of the file should be `activity_user.xml`
+
+A good practice is to not include the word `menu` as part of the name because these files are already located in the `menu` directory.
 
 ---
 
