@@ -18,7 +18,7 @@
 - [Exploring Asynchronous Promise-Based Workflows In AngularJS](http://www.bennadel.com/blog/2772-exploring-asynchronous-promise-based-workflows-in-angularjs.htm)
 
 ---
-
+do
 ## Style Guide
 1.[Constants](#constants)
 
@@ -233,7 +233,7 @@ Elements that are not in the DOM have less performance impact and your web app m
 
 ---
 ###One-time binding syntax {{ ::value }}
-With the new one-time binding syntax, we introduce a double-colon before our value:
+With the new one-time binding syntax, we introduce a *double-colon* before our value:
 
 ```javascript 
 {{ ::title }}
