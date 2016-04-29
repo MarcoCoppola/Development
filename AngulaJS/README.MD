@@ -233,7 +233,7 @@ Elements that are not in the DOM have less performance impact and your web app m
 
 ---
 ###One-time binding syntax {{ ::value }}
-With the new one-time binding syntax, we introduce a *double-colon* before our value:
+With the new one-time binding syntax, we introduce a `double-colon` before our value:
 
 ```javascript 
 {{ ::title }}
