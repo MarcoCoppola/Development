@@ -8,7 +8,7 @@
    * [Identificazione manuale delle dipendenze](#indentificazione-manuale-delle-dipendenze)
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
-   * [One-time binding syntax {{ ::value }}]()
+   * [One-time binding syntax {{ ::value }}](#one-time-binding-syntax--value-)
 1. [CORS](#cors)
 1. [Check the used version](#check-the-used-version)
 1. [Links](#links) 
@@ -245,7 +245,9 @@ It’s known that Angular becomes slower with around 2,000 bindings due to the p
 Using the single binding syntax is easy and most importantly fast. The syntax is clear and concise, and a real benefit to lowering the $$watcher overhead. The less work Angular has to do, the more responsive our applications will become.
 
 Source: [Speeding up AngularJS apps with simple optimizations](https://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135) 
+
 ---
+
 ## CORS
 View the [link](#http://stackoverflow.com/questions/33660712/angularjs-post-fails-response-for-preflight-has-invalid-http-status-code-404)
 
