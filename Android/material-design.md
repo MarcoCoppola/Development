@@ -20,11 +20,15 @@
 
 ##2. Typography
 |Name|Style|Where I can get it?|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+|----|-----|-------------------|
+|Display 4||
+|Display 3||
+|Display 2||
+|Display 1||
+|Headline||
+|Title||
+|Subheading||
+|Body 2||
+|Body 1||
+|Caption, Hint||
+|Button||
