@@ -19,8 +19,8 @@
 ---
 
 ##2. Typography
-|Name|Style|Where I can get it?|
-|----|-----|-------------------|
+|Name|Style|Where I can get it?|Note|
+|----|-----|-------------------|----|
 |Display 4||
 |Display 3||
 |Display 2||
@@ -30,5 +30,5 @@
 |Subheading||
 |Body 2||
 |Body 1||
-|Caption, Hint||
+|Caption, Hint| Regular 12sp Grey 500|@style/TextAppearance.Design.Hint||
 |Button||
