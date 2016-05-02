@@ -40,7 +40,7 @@
 ### Title 
 |Type|Size|Color|Top Padding|Bottom Padding|Note|
 |----|----|-----|-----------|--------------|----|
-|Large|24sp|Primary Color|24dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
+|Large|24sp|Primary Color|16dp or 24dp (when a large primary title is present)|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
 |Madium|18sp|Primary Color|(Da cercare)|(Da cercare)|Titolo delle card di google|
 |Small|16sp|Primary Color|16dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
 
