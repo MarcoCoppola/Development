@@ -3,7 +3,7 @@
 **Table of Contents**
 
 1. [Color](#color)
-2. [Typography](#typography)
+2. [Typography](2-typography)
 
 ---
 
