@@ -39,7 +39,7 @@
 ##3. Cards
 ### Title 
 |Type|Size|Color|Top Padding|Bottom Padding|Note|
-|----|----|-----|-----------|--------------|
+|----|----|-----|-----------|--------------|----|
 |Large|24sp|Primary Color|24dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
 |Madium|18sp|Primary Color|-|-|Titolo delle card di google|
 |Small|16sp|Primary Color|16dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
