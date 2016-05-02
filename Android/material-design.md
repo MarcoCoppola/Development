@@ -37,12 +37,11 @@
 ---
 
 ##3. Cards
-![alt text](https://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0Bzhp5Z4wHba3bG0tNkIyNDhJZEU/components_cards28.png)
----
 ### Title 
-|Type|Size|Color|Top Padding|Bottom Padding|
+|Type|Size|Color|Top Padding|Bottom Padding|Note|
 |----|----|-----|-----------|--------------|
-|Large|24sp|Primary Color|24dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)|
-|Small|16sp|Primary Color|16dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)|
+|Large|24sp|Primary Color|24dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
+|Madium|18sp|Primary Color|-|-|Titolo delle card di google|
+|Small|16sp|Primary Color|16dp|16dp (if there are additional actions or supporting text) or 24dp (no actions or supporting text)||
 
 ---
