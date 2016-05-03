@@ -76,8 +76,11 @@ Pattern is `feature.type.js`.
   ```
     
 ### Factory and Service Names
-**Pattern**: Use camel-casing and the suffix `Service`.
-Avoid prefixing factories and services with `$`. Only suffix service and factories with `Service` when it is not clear what they are (i.e. when they are nouns).
+#####Pattern 
+* Singolar
+* Use camel-casing and the suffix `Service`.
+* Avoid prefixing factories and services with `$`. 
+* Only suffix service and factories with `Service` when it is not clear what they are (i.e. when they are nouns).
 
     *Why?*: Provides a consistent way to quickly identify and reference factories.
 
