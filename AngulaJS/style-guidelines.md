@@ -76,7 +76,7 @@ Pattern is `feature.type.js`.
   ```
     
 ### Factory and Service Names
-#####Pattern 
+###### Pattern 
 * Plural if is service of a model or singolar.
 * Use camel-casing and the suffix `Service`.
 * Avoid prefixing factories and services with `$`. 
@@ -90,7 +90,7 @@ Pattern is `feature.type.js`.
 
     *Why?*: Service names such as `avengers` are nouns and require a suffix and should be named `avengersService`.
     
-#####Exaples
+###### Exaples
 
     ```javascript
     /**
