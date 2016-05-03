@@ -6,6 +6,7 @@
 4. [GridLayout](#gridlayout)
 5. [RelativeLayout](#relativelayout)
 6. [ScrollView](#scrollview)
+7. [CoordinatorLayout]()
 
 ---
 ##FrameLayout
@@ -54,4 +55,16 @@ Column width automatically adjusts based on the size of the column with maximum 
     
 </ScrollView>
 ```
+---
+## CoordinatorLayout
+CoordinatorLayout è un “super-powered” FrameLayout, the super power of this layout is the ability to coordinate dependencies between child views.
+All you need to do is to wrap views inside CoordinatorLayout.
+CoordinatorLayout extends the ability to accomplish many of the Google's Material Design scrolling effects.
+Currently, there are several ways provided in this framework that allow it to work without needing to write your own custom animation code. These effects include:
 
+* Sliding the Floating Action Button up and down to make space for the Snackbar.
+![alt text](http://imgur.com/zF9GGsK.gif)
+* Expanding or contracting the Toolbar or header space to make room for the main content.
+![alt text](http://imgur.com/X5AIH0P.gif)
+* Controlling which views should expand or collapse and at what rate, including parallax scrolling effects animations.
+![alt text](http://imgur.com/1JHP0cP.gif)
