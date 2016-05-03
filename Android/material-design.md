@@ -6,7 +6,7 @@
 2. [Typography](#2-typography)
 3. [Cards](#3-cards)
 4. [Tutorial](#tutorial)
-  * Scrolling Techniques for Material Design 
+  * [Scrolling Techniques for Material Design](#scrolling-techniques-for-material-design)
 
 ---
 
