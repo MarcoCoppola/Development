@@ -37,16 +37,15 @@
 ---
 
 ##3. Cards
-* **Margins**
+#####Margins
   * Il margine dal confine dello schermo è di 8dp.
   * Lo spazio tra due card è di 8dp.
 
-* **Paddings**
+#####Paddings
   * La card ha un padding left e right di `16dp`.
 
-* **Content block**
-
-Oogni componente rappresenta un blocco con delle proprietà.
+#####Content block
+* Oogni componente rappresenta un blocco con delle proprietà.
 
 ### Title 
 |Type|Size|Color|Top Padding|Bottom Padding|Left and right padding|Note|
