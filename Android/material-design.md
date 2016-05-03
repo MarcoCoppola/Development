@@ -44,8 +44,9 @@
 * **Paddings**
   * La card ha un padding left e right di `16dp`.
 
-* **Components**
-Si deve ragionare a blocchi, ogni componente rappresenta un blocco con delle proprietà.
+* **Content block**
+
+Oogni componente rappresenta un blocco con delle proprietà.
 
 ### Title 
 |Type|Size|Color|Top Padding|Bottom Padding|Left and right padding|Note|
