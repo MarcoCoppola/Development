@@ -90,7 +90,8 @@ Pattern is `feature.type.js`.
 
     *Why?*: Service names such as `avengers` are nouns and require a suffix and should be named `avengersService`.
     
-#####Exaples 
+#####Exaples
+
     ```javascript
     /**
      * recommended
