@@ -1,7 +1,7 @@
 #Lifecycle
 ######Table of Contents
-1. [Background]()
-2. [Activity Lifecycle]()
+1. [Background](#1-background)
+2. [Activity Lifecycle](#2-activity-lifecycle)
 
 ---
 ## 1. Background
