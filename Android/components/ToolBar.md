@@ -1,6 +1,6 @@
 #  ToolBar
 #####Table of Contents
-1. Reusing the Toolbar
+1. [Reusing the Toolbar](#reusing-the-toolbar)
 
 ---
 
