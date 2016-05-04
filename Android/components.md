@@ -1,9 +1,9 @@
 #Components
-
+######Table of Contents
 1. [Dividers](#dividers)
 2. [Navigation View](#navigation-view)
 3. [RecyclerView](#recyclerview)
-4. [Toolbar](#toolbar)
+4. [Toolbar](Development/Android/components/ToolBar.md)
 
 ---
 
