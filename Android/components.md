@@ -3,7 +3,7 @@
 1. [Dividers](#dividers)
 2. [Navigation View](#navigation-view)
 3. [RecyclerView](#recyclerview)
-4. [Toolbar](https://github.com/MaxTenco/Development/blob/master/Android/components/ToolBar.md#reusing-the-toolbar)
+4. [Toolbar](https://github.com/MaxTenco/Development/blob/master/Android/components/ToolBar.md#toolbar)
 
 ---
 
