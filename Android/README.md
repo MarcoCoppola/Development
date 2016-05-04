@@ -1,4 +1,6 @@
 # ANDROID
+1. [Activity]()
+1. [Fragment](https://github.com/MaxTenco/Development/blob/master/Android/fragment.md)
 1. [Tips and tricks](#tips-and-tricks)
  * [Hide Keyboard](#hide-keyboard)
  * [Starting new Activity](#starting-new-activity)
