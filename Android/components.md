@@ -3,7 +3,7 @@
 1. [Dividers](#dividers)
 2. [Navigation View](#navigation-view)
 3. [RecyclerView](#recyclerview)
-4. [Toolbar](Development/Android/components/ToolBar.md)
+4. [Toolbar](https://github.com/MaxTenco/Development/blob/master/Android/components/ToolBar.md#reusing-the-toolbar)
 
 ---
 
@@ -262,9 +262,4 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
 ```
 ---
 
-## Toolbar
-The toolbar was formerly known as the action bar. It is now a more customizable view with the same functionalities.
 
-![alt text](https://cms-assets.tutsplus.com/uploads/users/425/posts/24435/image/scrollable-regions-within-android-app.png)
-
-[Link](https://github.com/codepath/android_guides/wiki/Using-the-App-ToolBar)
