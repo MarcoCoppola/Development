@@ -8,7 +8,7 @@
 ## Restrict
 | Letter | Description |
 | ------ | ----------- |
-|E | Allows the directive to be applied as an element|
+|E | <div **book**></div> |
 |A |Allows the directive to be applied as an attribute|
 |C |Allows the directive to be applied as a class|
 |M |Allows the directive to be applied as a comment|
