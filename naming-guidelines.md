@@ -8,3 +8,6 @@
  
 ##### Save
 * Save the booking to the database. 
+
+#### Events
+* onArticleSelected() = Fai qualcosa una volta selezionato un articolo. 
