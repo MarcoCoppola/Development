@@ -8,10 +8,10 @@
 ## Restrict
 | Letter | Description |
 | ------ | ----------- |
-|E | ``` javascript  <div book></div> ```|
-|A |Allows the directive to be applied as an attribute|
-|C |Allows the directive to be applied as a class|
-|M |Allows the directive to be applied as a comment|
+| A | `<div book></div>` |
+| C | `<div class="book"></div>` |
+| E | `<book data="book_data"></book>` |
+| M | `<!--directive:book -->`|
 
 > It is rare that a directive in a real project would be applicable in all four ways. The most common values for the
 restrict definition property are A (the directive can be applied only as an attribute), E (the directive can be applied only
