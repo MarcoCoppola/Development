@@ -1,6 +1,8 @@
 # ANDROID
 1. [Activity]()
 1. [Fragment](https://github.com/MaxTenco/Development/blob/master/Android/fragment.md)
+2. [Networking and Models]()
+ * [Converting JSON to Models]()
 1. [Tips and tricks](#tips-and-tricks)
  * [Hide Keyboard](#hide-keyboard)
  * [Starting new Activity](#starting-new-activity)
@@ -12,6 +14,61 @@
 
 
 ---
+## Networking and Models
+### Converting JSON to Models
+* Nella risposta della chiamata verificare se esiste la chiave 
+```javascript
+if (Utility.checkKey(jsonObject, ID_STAZIONE))
+{
+    id = jsonObject.getInt(ID_STAZIONE);
+}
+else
+{
+    
+}
+```
+
+* creare il metodo fromJson nel model
+```javascript
+public static Stazione fromSchedaStazioneJson(final JSONObject jsonObject)
+    {
+        Stazione stazione = new Stazione();
+
+        int id = DEFAULT_VALUE_INT;
+        String nome = DEFAULT_VALUE_STRING;
+
+        try
+        {
+            // Id
+            if (Utility.checkKey(jsonObject, ID_STAZIONE))
+            {
+                id = jsonObject.getInt(ID_STAZIONE);
+            }
+
+            // Nome
+            if (Utility.checkKey(jsonObject, KEY_NOME_STAZ))
+            {
+                nome = jsonObject.getString(KEY_NOME_STAZ);
+            }
+
+           
+            // Populate STAZIONE Model
+            if (id != DEFAULT_VALUE_INT)
+            {
+                stazione.id = id;
+                stazione.nome = nome;
+            }
+
+        } catch (JSONException e)
+        {
+            e.printStackTrace();
+        }
+
+        return stazione;
+    }
+
+```
+
 ## TIPS AND TRICKS
 ### Hide Keyboard
 * In Fragment
