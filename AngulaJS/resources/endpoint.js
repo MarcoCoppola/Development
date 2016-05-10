@@ -70,7 +70,7 @@
                 });
             }
 
-            return endpoints;
+            return encodeURI(endpoints);
         }
     }
 })();
