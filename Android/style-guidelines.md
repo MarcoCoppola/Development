@@ -6,7 +6,7 @@
  * [Layout files](#layout-files)
  * [Menu files](#menu-files)
  * [ID Resources](#id-resources)
- * [String constants, naming, and values](#string-constants-naming-and-values)
+ * [Constants](#constants)
  * [Style](#style)
  * [Strings](#strings)
 
@@ -55,7 +55,7 @@ A good practice is to not include the word `menu` as part of the name because th
 
 
 ---
-### String constants, naming, and values
+### Constants
 
 Many elements of the Android SDK such as `SharedPreferences`, `Bundle`, or `Intent` use a key-value pair approach so it's very likely that even for a small app you end up having to write a lot of String constants.
 
