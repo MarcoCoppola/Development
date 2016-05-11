@@ -1,5 +1,6 @@
 # JavaScript
 1. [Default value and parameters](#default-value-and-parameters)
+2. [Methods to determine if an Object has a given property]()
 2. [Functions](#functions)
  * [Patterns of invocation in Javascript](#patterns-of-invocation-in-javascript)
  * [Function Declarations vs. Function Expressions](#function-declarations-vs-function-expressions)
@@ -19,7 +20,9 @@ function read_file(file, delete_after = false) {
   // Code
 }
 ```
-
+---
+## Methods to determine if an Object has a given property
+[Link](https://toddmotto.com/methods-to-determine-if-an-object-has-a-given-property/)
 ---
 
 ##Functions
