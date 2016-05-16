@@ -11,7 +11,7 @@
    * [Configuration](#configuration)
    * [Routes](#routes)
 2. [Constants](#constants)
-3. [Application Structure: Folders-by-Feature] (#)
+3. [Application Structure: Folders-by-Feature] (#application-structure-folders-by-feature)
 
 ---
 
@@ -190,8 +190,12 @@ Il nome deve essere **plurale** perchè indicano una collezione.
 ---
 ## Application Structure: Folders-by-Feature
 
+Create folders named for the feature they represent. When a folder grows to contain more than 7 files, start to consider creating a folder for them. Your threshold may be different, so adjust as needed.
+**Sort By Type**
+On the left we have the app organized by type. Not too bad for smaller apps, but even here you can start to see it gets more difficult to find what you are looking for. When I want to find a specific view and its controller, they are in different folders. It can be good to start here if you are not sure how else to organize the code as it is quite easy to shift to the technique on the right: structure by feature.
 
-  - Create folders named for the feature they represent. When a folder grows to contain more than 7 files, start to consider creating a folder for them. Your threshold may be different, so adjust as needed.
+**Sort By Feature**
+On the right the project is organized by feature. All of the layout views and controllers go in the layout folder, the admin content goes in the admin folder, and the services that are used by all of the areas go in the services folder. The idea here is that when you are looking for the code that makes a feature work, it is located in one place. Services are a bit different as they “service” many features. I like this once my app starts to take shape as it becomes a lot easier to manage for me.
 
     *Why?*: A developer can locate the code, identify what each file represents at a glance, the structure is flat as can be, and there is no repetitive nor redundant names.
 
