@@ -10,4 +10,17 @@
 * Save the booking to the database. 
 
 #### Events
-* onArticleSelected() = Fai qualcosa una volta selezionato un articolo. 
+* onArticleSelected() = Fai qualcosa una volta selezionato un articolo.
+
+#### Enable / Stop
+* **variable**: `popupEnabled = true`;
+
+##### Method
+* **name**: `debugEnabled(flag)`
+* **parameters**:
+
+  | Parameter | Type | Default | Description |
+  | --------- | ---- | ------- | ----------- |
+  | `flag (optional)` | `boolean` | `true` | Enable or disable debug level messages. |
+
+* **returns**: current value if used as getter or itself (chaining) if used as setter
