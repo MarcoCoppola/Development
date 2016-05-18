@@ -1,7 +1,7 @@
 #  ToolBar
 #####Table of Contents
 1. [Overview](#overview)
-2. [Adding Action Items]
+2. [Adding Action Items](#adding-action-items)
 1. [Reusing the Toolbar](#reusing-the-toolbar)
 
 ---
