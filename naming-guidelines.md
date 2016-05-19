@@ -16,7 +16,7 @@
 * **variable**: `popupEnabled = true`;
 
 ##### Method
-* **name**: `debugEnabled(flag)`
+* **name**: `setDebugEnabled(flag)`
 * **parameters**:
 
   | Parameter | Type | Default | Description |
