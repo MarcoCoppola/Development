@@ -12,7 +12,7 @@
 #### Events
 * onArticleSelected() = Fai qualcosa una volta selezionato un articolo.
 
-#### Enable / Stop
+#### Enable / Disable
 * **variable**: `popupEnabled = true`;
 
 ##### Method
