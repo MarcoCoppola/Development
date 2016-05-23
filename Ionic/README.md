@@ -54,12 +54,12 @@ var rootdir = process.argv[2];
 function replace_string_in_file(filename, to_replace, replace_with)
 {
     var data = fs.readFileSync(filename, 'utf8');
-
+    //console.warn(new RegExp(to_replace, "g"));
     var result = data.replace(new RegExp(to_replace, "g"), replace_with);
     fs.writeFileSync(filename, result, 'utf8');
 }
 
-var target = "stage";
+var target = "prod";
 if (process.env.TARGET)
 {
     target = process.env.TARGET;
@@ -70,14 +70,29 @@ if (rootdir)
     var ourconfigfile = path.join(rootdir, "www", "app", "env-config.json");
     var configobj = JSON.parse(fs.readFileSync(ourconfigfile, 'utf8'));
 
-    // CONFIGURE HERE
-    // with the names of the files that contain tokens you want replaced.  Replace files that have been copied via the prepare step.
-    var filestoreplace = [
-        // android
-        "platforms/android/assets/www/app/resources/constants.js",
-        // ios
-        //"platforms/ios/www/index.html",
-    ];
+    // Check the platform type
+    var root = "platforms";
+    var filestoreplace = [];
+    var platform = (fs.existsSync(path.join(rootdir, "platforms/android/assets/www/index.html"))) ? "android" : "ios";
+    console.log("Platform:", platform);
+
+    if (platform === "android")
+    {
+        root += "/android/assets/www/app"
+    }
+    else if (platform === "ios")
+    {
+        root += "/android/ios/www/app"
+    }
+    else {
+        console.error("Platform is not defined!");
+    }
+
+    // Set files
+    filestoreplace.push(root + "/services/constant.js");
+    filestoreplace.push(root + "/controllers/login.js");
+
+    // Replace
     filestoreplace.forEach(function(val, index, array)
     {
         var fullfilename = path.join(rootdir, val);
@@ -87,8 +102,15 @@ if (rootdir)
             // CONFIGURE HERE
             // with the names of the token values. For example, below we are looking for the token /*REP*/ 'api.example.com' /*REP*/ and will replace that token
             //replace_string_in_file(fullfilename, "/\\*REP\\*/ 'api.example.com' /\\*REP\\*/", configobj[target].datahostname);
-            replace_string_in_file(fullfilename, "/\\*ON_DEVICE\\*/ false /\\*ON_DEVICE\\*/", 'true');
-            // ... any other configuration
+            replace_string_in_file(fullfilename, "/\\*ON_DEVICE\\*/ (.)* /\\*ON_DEVICE\\*/", true);
+            replace_string_in_file(fullfilename, "/\\*LOG_ENABLED\\*/ (.)* /\\*LOG_ENABLED\\*/", configobj[target].logEnabled);
+            replace_string_in_file(fullfilename, "/\\*DEBUG_ENABLED\\*/ (.)* /\\*DEBUG_ENABLED\\*/", configobj[target].debugEnabled);
+            replace_string_in_file(fullfilename, "/\\*BASE_ENEL\\*/ (.)* /\\*BASE_ENEL\\*/", configobj[target].apiUrl);
+
+            if (!configobj[target].sensitiveInfoEnabled)
+            {
+                replace_string_in_file(fullfilename, "/\\*SENSITIVE_STRING\\*/ (.)* /\\*SENSITIVE_STRING\\*/", "''");
+            }
         }
         else
         {
