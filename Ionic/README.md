@@ -83,7 +83,7 @@ if (rootdir)
     // Check the platform type
     var root = "platforms";
     var filestoreplace = [];
-    var platform = (fs.existsSync(path.join(rootdir, "platforms/android/assets/www/index.html"))) ? "android" : "ios";
+    var platform = process.env.CORDOVA_PLATFORMS;
     console.log("Platform:", platform);
 
     if (platform === "android")
