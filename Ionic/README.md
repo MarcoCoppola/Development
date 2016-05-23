@@ -7,7 +7,6 @@
 2. [Update](#update)
     * [Ionic](#ionic-1)
     * [Plugins](#plugins)
-3. 
 
 ---
 ##TIPS AND TRICKS
@@ -26,14 +25,25 @@ $state.go($state.current, {}, {reload: true});
 * Create `env-config.json` in path `www/app/`:
 ``` json
 {
-  "dev":
-  {
-    "datahostname" : "'qa-api.mydomain.com'"
+  "dev":{
+    "sensitiveInfoEnabled": true,
+    "logEnabled": false,
+    "debugEnabled": true,
+    "apiUrl": "'https://intraweb-svil.enel.com/atlante'"
   },
 
-  "prod":
-  {
-    "datahostname" : "'api.mydomain.com'"
+  "stage": {
+    "sensitiveInfoEnabled": true,
+    "logEnabled": true,
+    "debugEnabled": true,
+    "apiUrl": "'https://intraweb-coll.enel.com/atlante'"
+  },
+
+  "prod": {
+    "sensitiveInfoEnabled": false,
+    "logEnabled": false,
+    "debugEnabled": false,
+    "apiUrl": "'https://intraweb.enel.com/atlante'"
   }
 }
 ```
