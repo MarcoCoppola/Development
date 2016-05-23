@@ -37,7 +37,7 @@ $state.go($state.current, {}, {reload: true});
   }
 }
 ```
-* Create `020_replace_text.js` in `hooks/after_prepare/`:
+* Create `020_set_environment.js` in `hooks/after_prepare/`:
 ``` javascript
 #!/usr/bin/env node
 
