@@ -24,3 +24,8 @@
   | `flag (optional)` | `boolean` | `true` | Enable or disable debug level messages. |
 
 * **returns**: current value if used as getter or itself (chaining) if used as setter
+
+--- 
+
+## Auth
+* Login successful!
