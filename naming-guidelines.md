@@ -1,7 +1,7 @@
 #Naming Guidelines
 
 ---
-## Listener, evetns
+## Listener, events
 
 #### Registrare un listener
 **Method**: `registerFooListener()`
