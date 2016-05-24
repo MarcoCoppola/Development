@@ -4,9 +4,8 @@
 ## Listener, events
 
 #### Registrare un listener
-**Method**: `registerFooListener()`
-
-**Descriptions**: Registers a listener for foo event.
+* **Method**: `registerFooListener()`
+* **Descriptions**: Registers a listener for foo event.
 
 #### Definire un ascoltatore
 * OnClickListener
