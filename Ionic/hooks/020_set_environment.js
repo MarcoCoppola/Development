@@ -44,7 +44,7 @@ if (rootdir)
     }
     else if (platform === "ios")
     {
-        root += "/android/ios/www/app"
+        root += "/ios/www/app"
     }
     else {
         console.error("Platform is not defined!");
