@@ -11,6 +11,7 @@
   * [Handler Volley Error](#handler-volley-error)
   * [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 1. [Tutorial](#tutorial)
+ 	* [Selecting Items of a RecyclerView](#selecting-items-of-a-recyclerview)
 4. [Link](#link) 
 
 
@@ -139,7 +140,12 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 ## Tutorial
 ### Selecting Items of a RecyclerView
 
-
+* Classe che estende onItemTouchListener
+* Creare l'oggetto GestureDetection per catturare il long press Event
+* L'activity deve implementare l'interfaccia ActionMode.Callback.
+* I metodi da implementare sono:
+	* onActionItemClicked()
+	* onDestroyActionMode()
 
 ---
 ## Link
