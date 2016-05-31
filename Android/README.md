@@ -10,6 +10,7 @@
   * [Java packages architecture] (#java-packages-architecture)
   * [Handler Volley Error](#handler-volley-error)
   * [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
+1. [Tutorial](#tutorial)
 4. [Link](#link) 
 
 
@@ -133,6 +134,12 @@ project
 
 ### .gitignore for an Android Studio project
 See the follow [link](https://github.com/github/gitignore/blob/master/Android.gitignore).
+
+---
+## Tutorial
+### Selecting Items of a RecyclerView
+
+
 
 ---
 ## Link
