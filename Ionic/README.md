@@ -1,5 +1,5 @@
 # Ionic
-1. [Side Menu]()
+1. [Side Menu](#side-menu)
 1. [Tips and Tricks](#tips-and-tricks)
   * [Reload the current view](#reload-the-current-view)
   * [Hide Back Button and show Menu Batton](#hide-back-button-and-show-menu-batton)
