@@ -13,7 +13,7 @@
 ---
 ## SIDE MENU
 #### ion-side-menus
-![Fragments](http://developer.android.com/images/fundamentals/fragments.png)
+![Side Menu Structure](http://mcgivery.com/wp-content/uploads/2014/11/sidemenu.png)
 
 #### ion-side-menu-content
 In our `ion-side-menu-content`, we have a `ion-nav-bar` (with an `ion-nav-back-button`) and a `ion-nav-view`
