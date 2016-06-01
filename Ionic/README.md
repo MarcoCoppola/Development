@@ -1,4 +1,5 @@
 # Ionic
+1. [Side Menu]()
 1. [Tips and Tricks](#tips-and-tricks)
   * [Reload the current view](#reload-the-current-view)
   * [Hide Back Button and show Menu Batton](#hide-back-button-and-show-menu-batton)
@@ -10,6 +11,10 @@
     * [Plugins](#plugins)
 
 ---
+## SIDE MENU
+![Side Menu Structure](http://mcgivery.com/wp-content/uploads/2014/11/sidemenu.png)
+---
+
 ##TIPS AND TRICKS
 ### Reload the current view
 ``` javascript
