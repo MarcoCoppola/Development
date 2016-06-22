@@ -7,6 +7,7 @@
 3. [Cards](#3-cards)
 4. [Tutorial](#tutorial)
   * [Scrolling Techniques for Material Design](#scrolling-techniques-for-material-design)
+5. [Info](#info)
 
 ---
 
@@ -67,3 +68,6 @@
 ## Tutorial
 ### Scrolling Techniques for Material Design
 Click [here](http://code.tutsplus.com/articles/scrolling-techniques-for-material-design--cms-24435)
+
+## Info
+Material Theme `C:\Android\sdk\platforms\android-23\data\res\values\themes_material.xml`
