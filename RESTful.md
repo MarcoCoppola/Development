@@ -10,8 +10,11 @@ Table of Contents
 ---
 
 ## Create
+
 ### Log
+
 * Creating a new `MODEL`
+
 ---
 
 ## Read
