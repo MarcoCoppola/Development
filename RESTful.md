@@ -13,7 +13,7 @@ Table of Contents
 
 ### Log
 
-* Creating a new `MODEL`
+* Creating a new `MODEL`...
 
 ---
 
