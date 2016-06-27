@@ -12,6 +12,7 @@
   * [.gitignore for an Android Studio project](#gitignore-for-an-android-studio-project)
 1. [Tutorial](#tutorial)
  	* [Selecting Items of a RecyclerView](#selecting-items-of-a-recyclerview)
+1. [Android Studio]()
 4. [Link](#link) 
 
 
@@ -146,6 +147,18 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 * I metodi da implementare sono:
 	* onActionItemClicked()
 	* onDestroyActionMode()
+
+---
+
+## Android Studio
+### Plugin
+* ADB Idea
+	ADB Idea aims to speed up the day of an Android developer by giving access to crucial terminal commands. I found this tool helpful after the release of Android Studio 2.0, and the addition of Instant Run. Whilst it’s a great feature, sometimes the quick build doesn’t pick up small changes and you have to rebuild and reinstall the project. This makes quick access to ADB commands invaluable
+* [Parcelable boilerplate code generation](https://github.com/mcharmas/android-parcelable-intellij-plugin)
+* [Convert SVG to Android Vectors](https://plugins.jetbrains.com/plugin/8103)
+	The mindset change of Material Design bought new approaches towards app icons, logos and static images. Asset formats changed from traditional image formats (.png, .jpg, etc …) to Vector Drawables. The SVG2VectorDrawable plugin let’s you convert SVG images to vector drawables (i.e. .xml files) so you can use them as layout drawables.
+* [Data Transfer Object Generator](https://github.com/nvinayshetty/DTOnator)
+* [Material Design Icon Generator](https://plugins.jetbrains.com/plugin/7647?pr=androidstudio)
 
 ---
 ## Link
