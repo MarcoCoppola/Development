@@ -137,7 +137,7 @@ project
 
 ### .gitignore for an Android Studio project
 See the follow [link](https://github.com/github/gitignore/blob/master/Android.gitignore).
-
+[Solution](http://stackoverflow.com/questions/29052342/android-studio-git-gitignore-vs-project-settings-version-control-ignored)
 ---
 ## Tutorial
 ### Selecting Items of a RecyclerView
