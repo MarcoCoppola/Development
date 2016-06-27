@@ -13,6 +13,7 @@
 1. [Tutorial](#tutorial)
  	* [Selecting Items of a RecyclerView](#selecting-items-of-a-recyclerview)
 1. [Android Studio](#android-studio)
+	* [Plugins](#plugins)
 4. [Link](#link) 
 
 
@@ -151,7 +152,7 @@ See the follow [link](https://github.com/github/gitignore/blob/master/Android.gi
 ---
 
 ## Android Studio
-### Plugin
+### Plugins
 * [ADB Idea](https://plugins.jetbrains.com/plugin/7380?pr=androidstudio)
 	ADB Idea aims to speed up the day of an Android developer by giving access to crucial terminal commands. I found this tool helpful after the release of Android Studio 2.0, and the addition of Instant Run. Whilst it’s a great feature, sometimes the quick build doesn’t pick up small changes and you have to rebuild and reinstall the project. This makes quick access to ADB commands invaluable
 * [Parcelable boilerplate code generation](https://github.com/mcharmas/android-parcelable-intellij-plugin)
