@@ -4,7 +4,7 @@
 1. [Default value](#default-value)
 2. [Java String format](#java-string-format)
 3. [Class of Constants](#class-of-constants)
-4. [Performance Tips]()
+4. [Performance Tips](#performance-tips)
 
 ---
 
@@ -70,4 +70,5 @@ for (int i = 0; i < 10000; i++) {
 String string = sb.toString();
 ```
 [Source](https://www.toptal.com/android/android-performance-tips-tools)
+
 ---
