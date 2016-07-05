@@ -54,7 +54,7 @@ public final class Constants {
 ---
 
 ## Performance Tips
-* String vs StringBuilder
+#### String vs StringBuilder
 ``` java
 // Circa 8secondi
 String string = "hello";
