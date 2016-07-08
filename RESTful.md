@@ -5,6 +5,8 @@ Table of Contents
 1. FAQ
     * Should the endpoint name be singular or plural?  
     * What about actions that don't fit into the world of CRUD operations?
+    * [SSL everywhere - all the time] (http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#ssl)
+    * [An API is only as good as its documentation - so have great documentation] (http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#docs)
 1. [Create](#create)
 2. [Read](#read)
 3. [Update](#update)
