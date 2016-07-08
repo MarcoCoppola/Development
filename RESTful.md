@@ -7,6 +7,9 @@ Table of Contents
     * What about actions that don't fit into the world of CRUD operations?
     * [SSL everywhere - all the time] (http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#ssl)
     * [An API is only as good as its documentation - so have great documentation] (http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#docs)
+    * [Use query parameters for advanced filtering, sorting & searching](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#advanced-queries)
+    * [Provide a way to limit which fields are returned from the API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#limiting-fields)
+    * [Return something useful from POST, PATCH & PUT requests](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#useful-post-responses)
 1. [Create](#create)
 2. [Read](#read)
 3. [Update](#update)
