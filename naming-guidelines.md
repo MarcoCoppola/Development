@@ -15,6 +15,8 @@
  
 ---
 ### Show/hide
+* **VARIABLE**
+
 * **METHOD**
 
   |Name|
