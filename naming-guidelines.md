@@ -14,6 +14,24 @@
 * Called when a view has been clicked.
  
 ---
+### Show/hide
+* **METHOD**
+
+  |Name|
+  |----|
+  |**showProgressDialog()**|
+
+
+  | Parameter | Type | Default | Description |
+  | --------- | ---- | ------- | ----------- |
+  | `-` | `-` | `-` | - |
+
+
+  | Return |
+  | ------ |
+  |-|
+  
+---
 
 ##### Save
 * Save the booking to the database. 
