@@ -17,10 +17,7 @@
 ### Show/hide
 * **VARIABLE**
 
-* **METHOD**
-
-  **showProgressDialog()**
-
+* **METHOD - showProgressDialog()**
 
   | Param | Type | Details |
   | --------- | ---- | ------- |
