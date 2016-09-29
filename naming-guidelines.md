@@ -24,9 +24,9 @@
   |**showProgressDialog()**|
 
 
-  | Parameter | Type | Default | Description |
-  | --------- | ---- | ------- | ----------- |
-  | `-` | `-` | `-` | - |
+  | Param | Type | Details |
+  | --------- | ---- | ------- |
+  | `-` | `-` | `-` |
 
 
   | Return |
