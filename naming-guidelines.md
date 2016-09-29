@@ -19,9 +19,7 @@
 
 * **METHOD**
 
-  |Name|
-  |----|
-  |**showProgressDialog()**|
+  **showProgressDialog()**
 
 
   | Param | Type | Details |
