@@ -4,7 +4,7 @@
 1. [Default value](#default-value)
 2. [Java String format](#java-string-format)
 3. [Class of Constants](#class-of-constants)
-4. [Coding to interfaces]
+4. [Coding to interfaces](#coding-to-interfaces)
 4. [Performance Tips](#performance-tips)
 
 ---
