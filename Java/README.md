@@ -75,7 +75,7 @@ String string = sb.toString();
 ---
 
 ## Coding to interfaces
-
+Diminuisce l'accoppiamento
 
 ---
 
