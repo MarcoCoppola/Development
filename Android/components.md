@@ -232,6 +232,12 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
         {
             super(itemView);
         }
+        
+         public void bindToPartenza(Partenza partenza, View.OnClickListener starClickListener) {
+            // titleView.setText(post.title);
+
+            // starView.setOnClickListener(starClickListener);
+        }
     }
 }
 
