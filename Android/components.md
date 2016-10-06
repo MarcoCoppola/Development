@@ -207,7 +207,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
     }
     
     @Override
-    public NameAdapter onCreateViewHolder(ViewGroup parent, int viewType)
+    public NameAdapter.NameViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
     {
         View view = mInflater.inflate(R.layout.row_name, parent, false);  // Rappresenta la root della vista
         
@@ -215,7 +215,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
     }
 
     @Override
-    public void onBindViewHolder(FermataViewHolder holder, int position)
+    public void onBindViewHolder(NameViewHolder holder, int position)
     {
 
     }
