@@ -3,6 +3,7 @@
 1. [Fragment](https://github.com/MaxTenco/Development/blob/master/Android/fragment.md)
 2. [Networking and Models](#networking-and-models)
  * [Converting JSON to Models](#converting-json-to-models)
+1. [Memory leaks]() 
 1. [Tips and tricks](#tips-and-tricks)
  * [Hide Keyboard](#hide-keyboard)
  * [Starting new Activity](#starting-new-activity)
@@ -72,6 +73,24 @@ public static Stazione fromSchedaStazioneJson(final JSONObject jsonObject)
     }
 
 ```
+
+---
+
+## Memory leak
+``` java
+// Generally you get that error when you try to perform work after the Fragment is no longer attached to the Activity.
+// In the callback that triggers the IllegalStateException add a check for isAdded
+                                                        Activity activity = getActivity();
+                                                        if (activity != null && isAdded())
+                                                        {
+                                                            C'è qualche riferimento alle viste
+                                                        } else
+                                                        {
+                                                            log.e("Memory leak!");
+                                                        }
+```
+
+---
 
 ## TIPS AND TRICKS
 ### Hide Keyboard
