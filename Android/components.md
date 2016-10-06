@@ -191,7 +191,7 @@ NavigationView should go inside DrawerLayout.
 ```java
 public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder>
 {
-    private ArrayList<name> mNameList;
+    private ArrayList<E> mNameList;
     private LayoutInflater mInflater;
     
     public NameAdapter(Context context)
@@ -200,7 +200,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
         mInflater = LayoutInflater.from(context);
     }
     
-    public void setNameList(ArrayList<Fermata> fermataList)
+    public void setNameList(ArrayList<E> fermataList)
     {
         this.mNameList = nameList;
         notifyItemChanged(0, nameList.size());
