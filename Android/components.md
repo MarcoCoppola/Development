@@ -200,7 +200,7 @@ public class NameAdapter extends RecyclerView.Adapter<NameAdapter.NameViewHolder
         mInflater = LayoutInflater.from(context);
     }
     
-    public void setNameList(ArrayList<E> fermataList)
+    public void setNameList(ArrayList<E> nameList)
     {
         this.mNameList = nameList;
         notifyItemChanged(0, nameList.size());
