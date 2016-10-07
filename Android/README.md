@@ -80,8 +80,7 @@ public static Stazione fromSchedaStazioneJson(final JSONObject jsonObject)
 ``` java
 // Generally you get that error when you try to perform work after the Fragment is no longer attached to the Activity.
 // In the callback that triggers the IllegalStateException add a check for isAdded
-Activity activity = getActivity();
-if (activity != null && isAdded())
+if (getActivity() != null && isAdded())
 {
     C'è qualche riferimento alle viste
 } else
