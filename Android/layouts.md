@@ -7,6 +7,7 @@
 5. [RelativeLayout](#relativelayout)
 6. [ScrollView](#scrollview)
 7. [CoordinatorLayout](#coordinatorlayout)
+8. [ConstraintLayout] (#constraintlayout)
 
 ---
 ##FrameLayout
@@ -70,3 +71,16 @@ Currently, there are several ways provided in this framework that allow it to wo
 
 * Controlling which views should expand or collapse and at what rate, including parallax scrolling effects animations.
 ![alt text](http://imgur.com/1JHP0cP.gif)
+
+---
+## ConstraintLayout
+###  When creating constraints, remember the following rules:
+
+1. Every view must have at least two constraints: one horizontal and one vertical.
+
+2. You can create constraints only between a constraint handle and an anchor point that share the same plane. So a vertical plane (the left and right sides) of a view can be constrained only to another vertical plane; and baselines can constrain only to other baselines.
+
+3. Each constraint handle can be used for just one constraint, but you can create multiple constraints (from different views) to the same anchor point.
+
+When you add a constraint to a view, you will see in the property section, the view attributes. You can edit your view properties in XML code but it is preferable to use the property window. There is a link below – view all properties. If the view property you want to edit is not visible then click on the link to see all the properties.
+
