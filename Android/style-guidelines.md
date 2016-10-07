@@ -4,6 +4,7 @@
 
 1. [Naming](#naming)
  * [Layout files](#layout-files)
+ * [Drawable files](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md#1221-drawable-files)
  * [Menu files](#menu-files)
  * [ID Resources](#id-resources)
  * [Constants](#constants)
