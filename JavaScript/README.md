@@ -10,8 +10,7 @@
 --- 
 
 ## Default value and parameters
-### Default value
-### Default parameters in EcmaScript 2015
+### EcmaScript 2015
 Default function parameters allow formal parameters to be initialized with default values if no value or undefined is passed.
 From ES6/ES2015, default parameters is in the language specification.
 
@@ -20,6 +19,18 @@ function read_file(file, delete_after = false) {
   // Code
 }
 ```
+### Pre ES2015,
+There are a lot of ways, but this is my preferred method - it lets you pass in anything you want, including false or null. (typeof null == "object")
+``` javascript
+function foo(a, b)
+{
+  a = typeof a !== 'undefined' ? a : 42;
+  b = typeof b !== 'undefined' ? b : 'default_b';
+  c = c || "my default here"; 
+  ...
+}
+```
+
 ---
 ## Methods to determine if an Object has a given property
 
