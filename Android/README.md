@@ -3,7 +3,7 @@
 1. [Fragment](https://github.com/MaxTenco/Development/blob/master/Android/fragment.md)
 2. [Networking and Models](#networking-and-models)
  * [Converting JSON to Models](#converting-json-to-models)
-1. [Context/Memory leaks](#memory-leak) 
+1. [Context/Memory leaks](##contextmemory-leak) 
 1. [Tips and tricks](#tips-and-tricks)
  * [Hide Keyboard](#hide-keyboard)
  * [Starting new Activity](#starting-new-activity)
