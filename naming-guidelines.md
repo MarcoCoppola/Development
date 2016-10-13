@@ -15,13 +15,25 @@
  
 ---
 ### Show/hide
-* **VARIABLE**
+#### VARIABLE
 
-* **METHOD - showProgressDialog()**
+#### METHODS
+* **showProgressDialog()**
 
   | Param | Type | Details |
   | --------- | ---- | ------- |
   | `-` | `-` | `-` |
+
+
+  | Return |
+  | ------ |
+  |-|
+
+* **setVisible(boolean visible)**
+
+  | Param | Type | Details |
+  | --------- | ---- | ------- |
+  | `visible` | `boolean` | `If true then the item will be visible; if false it is hidden.` |
 
 
   | Return |
