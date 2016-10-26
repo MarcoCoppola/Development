@@ -87,6 +87,12 @@ static final String ACTION_OPEN_USER = "com.myapp.action.ACTION_OPEN_USER";
 ---
 ### Style
 Style names are written  in `UpperCamelCase`.
+**Pattern**: `Category`, `Component`,`SubComponent`
+Theme.CardView.Title
+Theme.CardView.SubTitle
+Theme.CardView.Card
+TextApparance.Display1
+
 
 ---
 
