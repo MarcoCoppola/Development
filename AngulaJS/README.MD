@@ -9,6 +9,7 @@
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
    * [One-time binding syntax {{ ::value }}](#one-time-binding-syntax--value-)
+   * [Avoiding ng-include for Elegance and Performance]
 1. [CORS](#cors)
 1. [Check the used version](#check-the-used-version)
 1. [Links](#links) 
@@ -229,7 +230,7 @@ ng-if creates a child scope while ng-show/ng-hide does not
 Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide
 
 > Elements that are not in the DOM have less performance impact and your web app might appear to be faster when using ng-if compared to ng-show/ng-hide, the question you need to answer is whether you can remove element from DOM or not?
-```
+
 
 ---
 ###One-time binding syntax {{ ::value }}
@@ -247,6 +248,11 @@ Using the single binding syntax is easy and most importantly fast. The syntax is
 Source: [Speeding up AngularJS apps with simple optimizations](https://www.binpress.com/tutorial/speeding-up-angular-js-with-simple-optimizations/135) 
 
 ---
+### Avoiding ng-include for Elegance and Performance
+[link](http://www.codelord.net/2016/11/17/avoiding-ng-include-for-elegenace-and-performance/)
+
+---
+
 
 ## CORS
 View the [link](#http://stackoverflow.com/questions/33660712/angularjs-post-fails-response-for-preflight-has-invalid-http-status-code-404)
