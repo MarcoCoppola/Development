@@ -9,7 +9,7 @@
    * [IIFE - Immediately Invoked Function Expression](#iife)
    * [ng-if vs ns-show](#ng-if-vs-ns-show)
    * [One-time binding syntax {{ ::value }}](#one-time-binding-syntax--value-)
-   * [Avoiding ng-include for Elegance and Performance]
+   * [Avoiding ng-include for Elegance and Performance](#avoiding-ng-include-for-elegance-and-performance)
 1. [CORS](#cors)
 1. [Check the used version](#check-the-used-version)
 1. [Links](#links) 
