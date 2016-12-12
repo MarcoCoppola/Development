@@ -69,3 +69,8 @@
 --- 
 ### Controller
 TaskController: nome al singolare
+
+---
+
+## Console/Log Messages
+* Could not find user with id 53
