@@ -184,7 +184,7 @@ NavigationView should go inside DrawerLayout.
                 />
 ```
 
-* Create `row_name.xml`
+* Create `item_name.xml`
 
 
 ### Adapter
