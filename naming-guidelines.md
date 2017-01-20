@@ -1,5 +1,9 @@
 #Naming Guidelines
 
+| Type | Example | Details |
+| --------- | ---- | ------- |
+| Model | User | Singular |
+| Controller | Users | Plural |
 ---
 ## Listener, events
 
