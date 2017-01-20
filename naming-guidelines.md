@@ -3,8 +3,11 @@
 ---
 ## Singular or Plural?
 
+| Type | Singular or plural | Details |
+| --------- | ---- | ------- |
 | Model | Singular | User | 
 | Controller | Plural | Users | 
+
 ---
 ## Listener, events
 
