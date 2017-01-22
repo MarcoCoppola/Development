@@ -84,6 +84,8 @@ static final String ARGUMENT_USER_ID = "ARGUMENT_USER_ID";
 static final String EXTRA_SURNAME = "com.myapp.extras.EXTRA_SURNAME";
 static final String ACTION_OPEN_USER = "com.myapp.action.ACTION_OPEN_USER";
 ```
+
+
 ---
 ### Style
 Style names are written  in `UpperCamelCase`.
@@ -106,6 +108,13 @@ String names start with a prefix that identifies the section they belong to. For
 | `msg_`               | A regular information message         |
 | `title_`             | A title, i.e. a dialog title          |
 | `action_`            | An action such as "Save" or "Create"  |
+
+
+Example from Google:
+
+```xml
+<string name=”photos_mediadetails_details_edit_datetime_icon_content_description”>Edit icon to allow the user to edit the date/time of the media.</string>
+```
 
 ---
 
