@@ -9,6 +9,7 @@
  * [ID Resources](#id-resources)
  * [Constants](#constants)
  * [Style](#style)
+    * [Dimen](#dimen)
  * [Strings](#strings)
 
 1. Style
@@ -94,6 +95,14 @@ Theme.CardView.Title
 Theme.CardView.SubTitle
 Theme.CardView.Card
 TextApparance.Display1
+
+#### Dimen
+Example from google:
+
+```xml
+android:padding=”@dimen/photos_mediadetails_item_padding” 
+android:minHeight=”@dimen/photos_mediadetails_item_min_height”
+```
 
 
 ---
