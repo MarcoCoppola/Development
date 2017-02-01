@@ -1,5 +1,11 @@
 #Naming Guidelines
 
+## Table of Contents
+
+  1. [Singular or Plural](#connection)
+  1. [Listener, events](#log)
+  1. [Show/hide]
+
 ---
 ## Singular or Plural?
 
