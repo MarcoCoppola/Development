@@ -1,6 +1,6 @@
 #Messages
 
-### Table of Contents
+## Table of Contents
 
   1. [Connection](#connection)
   1. [Log](#log)
