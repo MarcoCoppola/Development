@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-  1. [Singular or Plural](#connection)
-  1. [Listener, events](#log)
-  1. [Show/hide]
+  1. [Singular or Plural](#singular-or-plural)
+  1. [Listener, events]()
+  1. [Show/hide]()
 
 ---
 ## Singular or Plural?
