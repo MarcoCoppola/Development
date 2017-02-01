@@ -2,9 +2,7 @@
 
 ## Table of Contents
 
-  1. [Artisan commands](#singular-or-plural)
-  1. [Listener, events]()
-  1. [Show/hide]()
+  1. [Artisan commands](#artisan-commands)
 
 ---
 ## Artisan commands
