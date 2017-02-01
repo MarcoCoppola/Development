@@ -3,10 +3,10 @@
 ---
 ## Singular or Plural?
 
-| Type | Singular or plural | Details |
-| --------- | ---- | ------- |
-| Model | Singular | User | 
-| Controller | Plural | Users | 
+| Type | Singular or plural | Example | Details |
+| --------- | ---- | ------- | ------- |
+| Model | Singular | User | |
+| Controller | Plural | Users | Se il controller si riferisce ad un Model |
 
 ---
 ## Listener, events
