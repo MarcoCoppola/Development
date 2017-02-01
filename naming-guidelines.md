@@ -6,7 +6,7 @@
 | Type | Singular or plural | Example | Details |
 | --------- | ---- | ------- | ------- |
 | Model | Singular | User | |
-| Controller | Plural | Users | Se il controller si riferisce ad un Model |
+| Controller | Plural | UsersController | Se il controller si riferisce ad un Model |
 
 ---
 ## Listener, events
