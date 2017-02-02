@@ -110,7 +110,9 @@ android:minHeight=”@dimen/photos_mediadetails_item_min_height”
 ---
 
 ### Strings
-String names start with a prefix that identifies the section they belong to. For example `registration_email_hint` or `registration_name_hint`. If a string __doesn't belong__ to any section, then you should follow the rules below:
+String names start with a prefix that identifies the section they belong to. 
+For example `registration_email_hint` or `registration_name_hint`. 
+If a string __doesn't belong__ to any section, then you should follow the rules below:
 
 
 | Prefix             | Description                           |
