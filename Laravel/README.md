@@ -18,6 +18,11 @@
 ### Migrations
 | Command | Description |
 | --------- | ------- |
+|  `php artisan make:migration create_users_table` | To create a migration |
+|  `php artisan make:migration create_users_table --create=users` |  |
+|  `php artisan make:migration add_votes_to_users_table --table=users` |  |
+|  `php artisan migrate` | To run all of your outstanding migrations |
+|  `php artisan migrate --force` |  |
 |  `php artisan migrate:rollback` | Rollback the latest migration operation |
 |  `php artisan migrate:rollback --step=5` | Rollback the last five migrations |
 |  `php artisan migrate:reset` | Rollback  all of your application's migrations |
