@@ -3,14 +3,16 @@
 ## Table of Contents
 
   1. [Artisan commands](#artisan-commands)
+    * [Make]
     * [Migrations]()
 
 ---
 ## Artisan commands
 
-
+### Make
 | Command | Description |
 | --------- | ------- |
+|  `php artisan make:middleware MiddlewareName` | Replace MiddlewareName with the actual name of the middleware |
 |  `make:model User` | Create a model instance |
 |  `make:model User -m` | Create a model instance and database migration|
 
