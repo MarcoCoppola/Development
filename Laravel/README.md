@@ -5,6 +5,8 @@
   1. [Artisan commands](#artisan-commands)
     * [Make](#make)
     * [Migrations](#migrations)
+    * [Route](#route)
+    
 
 ---
 ## Artisan commands
@@ -31,3 +33,11 @@
 |  `php artisan migrate:refresh` | Rollback & Migrate In Single Command |
 |  `php artisan migrate:refresh --seed` | Refresh the database and run all database seeds |
 |  `php artisan migrate:refresh --step=5` | rollback & re-migrate the last five migrations|
+
+
+### Routes
+| Command | Description |
+| --------- | ------- |
+|  `routes:list` | Listing Your Routes |
+|  `route:clear` |  |
+|  `route:cache` | |
