@@ -5,7 +5,7 @@
   1. [Artisan commands](#artisan-commands)
     * [Make](#make)
     * [Migrations](#migrations)
-    * [Route](#route)
+    * [Routes](##routes)
     
 
 ---
