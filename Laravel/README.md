@@ -38,6 +38,6 @@
 ### Routes
 | Command | Description |
 | --------- | ------- |
-|  `routes:list` | Listing Your Routes |
+|  `route:list` | Listing Your Routes |
 |  `route:clear` |  |
 |  `route:cache` | |
