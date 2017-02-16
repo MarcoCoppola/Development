@@ -22,8 +22,8 @@
 ### Migrations
 | Command | Description |
 | --------- | ------- |
-|  `php artisan make:migration create_users_table` | To create a migration |
-|  `php artisan make:migration create_users_table --create=users` |  |
+|  `make:migration create_users_table` | Create a migration |
+|  `make:migration create_users_table --create=users` | Create a new table |
 |  `php artisan make:migration add_votes_to_users_table --table=users` |  |
 |  `php artisan migrate` | To run all of your outstanding migrations |
 |  `php artisan migrate --force` |  |
