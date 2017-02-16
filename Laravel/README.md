@@ -14,16 +14,16 @@
 ### Make
 | Command | Description |
 | --------- | ------- |
-|  `make:middleware MiddlewareName` | Replace MiddlewareName with the actual name of the middleware |
-|  `make:model User` | Create a model instance |
-|  `make:model User -m` | Create a model instance and database migration|
+|  `php artisan make:middleware MiddlewareName` | Replace MiddlewareName with the actual name of the middleware |
+|  `php artisan make:model User` | Create a model instance |
+|  `php artisan make:model User -m` | Create a model instance and database migration|
 
 
 ### Migrations
 | Command | Description |
 | --------- | ------- |
-|  `make:migration create_users_table` | Create a migration |
-|  `make:migration create_users_table --create=users` | Create a new table |
+|  `php artisan make:migration create_users_table` | Create a migration |
+|  `php artisan make:migration create_users_table --create=users` | Create a new table |
 |  `php artisan make:migration add_votes_to_users_table --table=users` |  |
 |  `php artisan migrate` | To run all of your outstanding migrations |
 |  `php artisan migrate --force` |  |
@@ -38,6 +38,6 @@
 ### Routes
 | Command | Description |
 | --------- | ------- |
-|  `route:list` | Listing Your Routes |
-|  `route:clear` |  |
-|  `route:cache` | |
+|  `php artisan route:list` | Listing Your Routes |
+|  `php artisan route:clear` |  |
+|  `php artisan route:cache` | |
