@@ -6,6 +6,7 @@
     * [Make](#make)
     * [Migrations](#migrations)
     * [Routes](#routes)
+    * [Seeding](#seeding)
     
 
 ---
@@ -41,3 +42,12 @@
 |  `php artisan route:list` | Listing Your Routes |
 |  `php artisan route:clear` |  |
 |  `php artisan route:cache` | |
+
+
+### Seeding
+| Command | Description |
+| --------- | ------- |
+|  `php artisan db:seed` | Seeding your database  |
+|  `php artisan db:seed --class=UsersTableSeeder` | Run specific seeder class  |
+|  `php artisan migrate:refresh --seed` | Rollback and re-run all of your migrations |
+
