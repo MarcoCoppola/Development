@@ -3,6 +3,7 @@
 ## Table of Contents
 
   1. [Artisan commands](#artisan-commands)
+    * [Controller](#controller)
     * [Make](#make)
     * [Migrations](#migrations)
     * [Routes](#routes)
@@ -11,6 +12,14 @@
 
 ---
 ## Artisan commands
+
+### Controller
+| Command | Description |
+| --------- | ------- |
+|  `php artisan make:controller PhotoController` | Create a controller |
+|  `php artisan make:controller PhotoController --resource` | Create a resource controller |
+|  `php artisan make:controller PhotoController --resource --model=Photo` | Create a resource controller with model |
+
 
 ### Make
 | Command | Description |
