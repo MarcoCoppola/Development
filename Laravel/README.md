@@ -56,6 +56,7 @@
 ### Seeding
 | Command | Description |
 | --------- | ------- |
+|  `php artisan make:seeder UsersTableSeeder` | Generate a seeder|
 |  `php artisan db:seed` | Seeding your database  |
 |  `php artisan db:seed --class=UsersTableSeeder` | Run specific seeder class  |
 |  `php artisan migrate:refresh --seed` | Rollback and re-run all of your migrations |
