@@ -34,7 +34,7 @@
 | --------- | ------- |
 |  `php artisan make:migration create_users_table` | Create a migration |
 |  `php artisan make:migration create_users_table --create=users` | Create a new table |
-|  `php artisan make:migration add_votes_to_users_table --table=users` |  |
+|  `php artisan make:migration add_votes_to_users_table --table=users` | Edit Table |
 |  `php artisan migrate` | To run all of your outstanding migrations |
 |  `php artisan migrate --force` |  |
 |  `php artisan migrate:rollback` | Rollback the latest migration operation |
