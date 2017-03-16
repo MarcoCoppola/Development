@@ -28,7 +28,7 @@
   /**
   * Event when the Name Select changes the selected value
   */
-  function onChangeName()
+  function onNameChange()
   {
          
   }
