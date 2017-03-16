@@ -8,7 +8,7 @@
 
 * **Initialize the select**
   ``` Javascript
-  $scope.nameSelect = {selected: '', options: []};
+  $scope.nameSelect = {selected: '', options: [], visibility: false};
   ```
 
 * **Populate the select:**
