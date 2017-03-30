@@ -76,5 +76,5 @@
 ## $resource
 | Method | URL | Code |
 |--------| --- | ---- |
-| POST | user/{id} | `{url: 'user/:id', method: 'POST',params: {id: 'id'}}` |
+| POST | user/{id} | `{url: 'user/:id', method: 'POST', params: {id: 'id'}}` |
 
