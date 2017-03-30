@@ -1,7 +1,7 @@
 # Components
 
 1. [Select](#select)
-2. [$resource](#$resource)
+2. [$resource](#resource)
 
 ---
 
