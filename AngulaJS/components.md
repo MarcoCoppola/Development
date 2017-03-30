@@ -1,6 +1,7 @@
 # Components
 
 1. [Select](#select)
+2. [$resource](#$resource)
 
 ---
 
@@ -69,3 +70,11 @@
 |label disable when disable for (key, value) in object|
 |select as label group by group for (key, value) in object|
 |select as label disable when disable for (key, value) in object|
+
+---
+
+## $resource
+| Method | URL | Code |
+|--------| --- | ---- |
+| POST | user/{id} | `{url: 'user/:id', method: 'POST',params: {id: 'id'}}` |
+
