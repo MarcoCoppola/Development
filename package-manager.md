@@ -18,7 +18,9 @@
 | Command | Description |
 | --------- | ------- |
 |  `bower list` |  Check out the new version of package installated |
+|  `bower update` | Update components |
 |  `bower uninstall package-name --save` |  Remove package-name |
+
 
 ---
 
