@@ -12,7 +12,7 @@
 
 ---
 
-## Backed
+## Backend
 
 ---
 
@@ -23,3 +23,9 @@ Method name:
 ### Update
 
 ---
+
+## Frontend
+
+| Operation | Method |
+| --------- | ------- |
+|  *Create* | `foo()` |
