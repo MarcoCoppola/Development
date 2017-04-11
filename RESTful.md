@@ -26,6 +26,8 @@ Method name:
 
 ## Frontend
 
-| Operation | Method |
-| --------- | ------- |
-|  *Create* | `foo()` |
+| Operation | Method | Doc | Log |
+| --------- | ------ | --- | --- |
+|  *Create* | `foo()` | | |
+|  ** | `` | | |
+
