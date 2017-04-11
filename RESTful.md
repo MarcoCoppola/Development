@@ -29,5 +29,8 @@ Method name:
 | Operation | Method | Doc | Log |
 | --------- | ------ | --- | --- |
 |  *Create* | `foo()` | | |
-|  ** | `` | | |
+|  *Read all* | `` | | |
+|  *Read single* | `` | | |
+|  *Update* | `` | | |
+|  *Deleate* | `` | | |
 
