@@ -1,13 +1,12 @@
 # Laravel
 
 ## Table of Contents
-
-  1. [Artisan commands](#artisan-commands)
-    * [Controller](#controller)
-    * [Make](#make)
-    * [Migrations](#migrations)
-    * [Routes](#routes)
-    * [Seeding](#seeding)
+1. [Artisan commands](#artisan-commands)
+  * [Controller](#controller)
+  * [Make](#make)
+  * [Migrations](#migrations)
+  * [Routes](#routes)
+  * [Seeding](#seeding)
     
 
 ---
@@ -27,6 +26,7 @@
 |  `php artisan make:middleware MiddlewareName` | Replace MiddlewareName with the actual name of the middleware |
 |  `php artisan make:model User` | Create a model instance |
 |  `php artisan make:model User -m` | Create a model instance and database migration|
+|  `php artisan make:mail OrderShipped` | Create a mailable class |
 
 
 ### Migrations
