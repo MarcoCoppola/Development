@@ -83,7 +83,7 @@ See the follow link: [End-to-end testing an Ionic application with Appium and Pr
 
 ## UPDATE
 
-###IONIC
+### Ionic
 
 For updating Ionic you can use `ionic lib update` to console.
 
