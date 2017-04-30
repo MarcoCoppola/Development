@@ -8,7 +8,7 @@
     * [Routes](#routes)
     * [Seeding](#seeding)
 2. [Database](#database)
-    * Foreign Key Constraints
+    * [Foreign Key Constraints](#foreign-key-constraints)
  
     
 
