@@ -2,13 +2,13 @@
 
 ## Table of Contents
 1. [Artisan commands](#artisan-commands)
-  * [Controller](#controller)
-  * [Make](#make)
-  * [Migrations](#migrations)
-  * [Routes](#routes)
-  * [Seeding](#seeding)
+    * [Controller](#controller)
+    * [Make](#make)
+    * [Migrations](#migrations)
+    * [Routes](#routes)
+    * [Seeding](#seeding)
 2. [Database](#database)
-* Foreign Key Constraints
+    * Foreign Key Constraints
  
     
 
