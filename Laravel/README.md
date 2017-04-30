@@ -7,6 +7,9 @@
   * [Migrations](#migrations)
   * [Routes](#routes)
   * [Seeding](#seeding)
+2. [Database](#database)
+* Foreign Key Constraints
+ 
     
 
 ---
@@ -61,3 +64,31 @@
 |  `php artisan db:seed --class=UsersTableSeeder` | Run specific seeder class  |
 |  `php artisan migrate:refresh --seed` | Rollback and re-run all of your migrations |
 
+---
+
+## Database
+
+### Foreign Key Constraints
+```php
+public function up()
+    {
+        Schema::disableForeignKeyConstraints();
+
+        Schema::table('offers', function (Blueprint $table) {
+            $table->integer('region_id')->unsigned();
+           
+            $table->foreign('region_id')->references('id')->on('regions');
+        });
+
+        Schema::enableForeignKeyConstraints();
+    }
+
+    public function down()
+    {
+        Schema::table('offers', function (Blueprint $table) {
+            $table->dropForeign('offers_region_id_foreign');
+
+            $table->dropColumn('region_id');
+        });
+    }
+```
