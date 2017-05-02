@@ -71,8 +71,11 @@
 
 ### Columns
 `$table->increments('id');`
+
 `$table->unsignedInteger('user_id')->index();`
+
 `$table->unsignedInteger('subject_id')->index();`
+
 
 ### Foreign Key Constraints
 ```php
