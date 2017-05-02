@@ -8,6 +8,7 @@
     * [Routes](#routes)
     * [Seeding](#seeding)
 2. [Database](#database)
+    * [Columns](#columns)
     * [Foreign Key Constraints](#foreign-key-constraints)
  
     
@@ -67,6 +68,11 @@
 ---
 
 ## Database
+
+### Columns
+`$table->increments('id');`
+`$table->unsignedInteger('user_id')->index();`
+`$table->unsignedInteger('subject_id')->index();`
 
 ### Foreign Key Constraints
 ```php
