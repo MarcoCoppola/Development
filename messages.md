@@ -7,7 +7,7 @@
 
 ---
 
-##Connection
+## Connection
 - Connessione Internet assente. Il dispositivo è offline.
 
 ## Log
