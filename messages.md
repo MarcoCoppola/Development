@@ -2,13 +2,19 @@
 
 ## Table of Contents
 
-  1. [Connection](#connection)
-  1. [Log](#log)
+  1. [Backend](#backend)
+  1. [Frontend](#frontend)
 
 ---
 
-## Connection
-- Connessione Internet assente. Il dispositivo è offline.
+## Backend
+| Messages |
+| --------- |
+|  FirebaseApp initialization successful |
 
-## Log
--  FirebaseApp initialization successful
+--- 
+
+## Frontend
+| Messages |
+| --------- |
+|  Connessione Internet assente. Il dispositivo è offline. |
