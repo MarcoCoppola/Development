@@ -10,6 +10,8 @@
 | cd [folder] | Change directory e.g. `cd documents` |
 | cd /  | Root of drive |
 | cd -  | Previous directory |
+| chown <user>: <file>  | Change owner of folder |
+| chown -R <user>: <file>  | Change owner of folder and apply the rights for all files inside of a directory too|
 | ls | Short listing |
 | ls -l | Long listing |
 | ls -a | Listing incl. hidden files |
