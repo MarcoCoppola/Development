@@ -9,7 +9,7 @@
     * [Seeding](#seeding)
 2. [Database](#database)
     * [Columns](#columns)
-    * [Drop Column]()
+    * [Drop Column](#drop-column)
     * [Foreign Key Constraints](#foreign-key-constraints)
  
     
