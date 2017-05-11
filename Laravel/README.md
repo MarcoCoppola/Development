@@ -9,6 +9,7 @@
     * [Seeding](#seeding)
 2. [Database](#database)
     * [Columns](#columns)
+    * [Drop Column]()
     * [Foreign Key Constraints](#foreign-key-constraints)
  
     
@@ -76,6 +77,20 @@
 
 `$table->unsignedInteger('subject_id')->index();`
 
+---
+
+### Drop Column
+
+```php
+ if (Schema::hasColumn('ipns', 'expiration_date'))
+        {
+            Schema::table('ipns', function (Blueprint $table)
+            {
+                $table->dropColumn('expiration_date');
+            });
+        }
+```
+---
 
 ### Foreign Key Constraints
 ```php
