@@ -10,8 +10,8 @@
 | cd [folder] | Change directory e.g. `cd documents` |
 | cd /  | Root of drive |
 | cd -  | Previous directory |
-| chown <user>: <file>  | Change owner of folder |
-| chown -R <user>: <file>  | Change owner of folder and apply the rights for all files inside of a directory too|
+| chown [user]: [folder]  | Change owner of folder |
+| chown -R [user]: [folder]  | Change owner of folder and apply the rights for all files inside of a directory too|
 | ls | Short listing |
 | ls -l | Long listing |
 | ls -a | Listing incl. hidden files |
@@ -34,24 +34,6 @@
 | [command-a] || [command-b] | Run command B if A failed |
 | [command-a] & | Run command A in background |
 
-
-## PIPING COMMANDS
-
-| Key/Command | Description |
-| ----------- | ----------- |
-| [command-a] \| [command-b] | Run command A and then pass the result to command B e.g ps auxwww \| grep google
-|
-
-
-## COMMAND HISTORY
-
-| Key/Command | Description |
-| ----------- | ----------- |
-| history n |  Shows the stuff typed – add a number to limit the last n items |
-| Ctrl + r  | Interactively search through previously typed commands |
-| ![value] |  Execute the last command typed that starts with ‘value’ |
-| !! |  Execute the last command typed |
-
 ## FILE MANAGEMENT
 
 | Key/Command | Description |
@@ -73,37 +55,3 @@
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Past clipboard contents into file, `pbpaste > paste-test.txt` |
-
-## DIRECTORY MANAGEMENT
-
-| Key/Command | Description |
-| ----------- | ----------- |
-| mkdir [dir] | Create new directory |
-| mkdir -p [dir]/[dir] |  Create nested directories |
-| rmdir [dir] | Remove directory ( only operates on empty directories ) |
-| rm -R [dir] | Remove directory and contents |
-| [command] \| [command] | Allows to combine multiple commands that generate output, e.g. `cat data.txt | pbcopy` |
-| less |  Output content delivered in screensize chunks |
-| [command] > [file] |  Push output to file, keep in mind it will get overwritten |
-| [command] >> [file] | Append output to existing file |
-| [command] < [file] |  Tell command to read content from a file |
-
-## SEARCH
-
-| Key/Command | Description |
-| ----------- | ----------- |
-| find [dir] -name [search_pattern] | Search for files, e.g. `find /Users -name "file.txt"` |
-| grep [search_pattern] [file] | Search for all lines that contain the pattern, e.g. `grep "Tom" file.txt` |
-| grep -r [search_pattern] [file] | Recursively search for all lines that do not contain the pattern |
-| grep -v [search_pattern] [file] | Search for all lines that do NOT contain the pattern |
-
-## HELP
-
-| Key/Command | Description |
-| ----------- | ----------- |
-| [command] -h |  Offers help |
-| [command] —help | Offers help |
-| info [command] | Offers help |
-| man [command] |  Show the help manual for [command] |
-| whatis [command] | Gives a one-line description of [command] |
-| apropos [search-pattern] | Searches for command with keywords in description |
