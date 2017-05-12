@@ -55,3 +55,13 @@
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Past clipboard contents into file, `pbpaste > paste-test.txt` |
+
+---
+
+## GIT COMMANDS
+
+| Key/Command | Description |
+| ----------- | ----------- |
+| git branch | Restituisce l'elenco dei branch |
+| git branch test_branch |   Creazione di un nuovo branch |
+| git checkout test_branch | Definisci quale deve essere il brach attivo |
