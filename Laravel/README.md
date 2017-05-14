@@ -11,6 +11,8 @@
     * [Columns](#columns)
     * [Drop Column](#drop-column)
     * [Foreign Key Constraints](#foreign-key-constraints)
+3. [Packages](#packages)
+    * [Envoy](#envoy)
  
     
 
@@ -116,3 +118,8 @@ public function up()
         });
     }
 ```
+---
+## Packages
+
+### Envoy
+`alias envoy="~/.composer/vendor/bin/envoy"`
