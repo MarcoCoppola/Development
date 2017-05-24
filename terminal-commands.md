@@ -64,5 +64,8 @@
 | ----------- | ----------- |
 | git branch | Restituisce l'elenco dei branch |
 | git branch test_branch |   Creazione di un nuovo branch |
-| git branch -d test_branch | Cancellazione del branch 'test_branch' |
+| git branch -d test_branch | Cancellazione del branch 'test_branch'. Safe operation |
 | git checkout test_branch | Definisci quale deve essere il brach attivo |
+| git branch -m test_branch | Rinonima il branch corrente in test_branch |
+
+
