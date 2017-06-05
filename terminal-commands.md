@@ -1,7 +1,7 @@
 # Terminal Commands
 
 1. Commons
-1. GIT
+1. [GIT](#git)
 1. Nginx
 ---
 
@@ -61,7 +61,7 @@
 
 ---
 
-## GIT COMMANDS
+## GIT
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -73,7 +73,8 @@
 
 ---
 
-## GIT COMMANDS
+## Nginx
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | service nginx start | Start Nginx |
