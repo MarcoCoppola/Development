@@ -1,5 +1,8 @@
 # Terminal Commands
 
+1. Commons
+1. GIT
+1. Nginx
 ---
 
 ## CORE COMMANDS
@@ -68,4 +71,15 @@
 | git branch -m test_branch | Rinonima il branch corrente in test_branch |
 | git checkout test_branch | Definisci quale deve essere il brach attivo |
 
+---
 
+## GIT COMMANDS
+| Key/Command | Description |
+| ----------- | ----------- |
+| service nginx start | Start Nginx |
+| service nginx stop | Stop Nginx |
+| service nginx restart | Restart Nginx |
+| service nginx reload | Reload Nginx |
+| nginx -t | Check Nginx Configuration |
+| service nginx status | Check if Nginx is Running |
+| nginx -V | Check Nginx Version & Compiled Modules |
