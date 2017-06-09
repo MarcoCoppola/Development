@@ -19,6 +19,7 @@
 | ls -a | Listing incl. hidden files |
 | ls -lh| Long listing with Human readable file sizes |
 | ls -R | Entire content of folder recursively |
+| mkdir [dir] | Crete new dir |
 | open [file] | Opens a file ( as if you double clicked it ) |
 | top | Displays active processes. Press q to quit |
 | nano [file] | Opens the file using the nano editor |
