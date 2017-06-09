@@ -10,7 +10,6 @@
 | Key/Command | Description |
 | ----------- | ----------- |
 | cd |  Home directory |
-| cd [folder] | Change directory e.g. `cd documents` |
 | cd /  | Root of drive |
 | cd -  | Previous directory |
 | chown [user]: [folder]  | Change owner of folder |
@@ -20,7 +19,6 @@
 | ls -a | Listing incl. hidden files |
 | ls -lh| Long listing with Human readable file sizes |
 | ls -R | Entire content of folder recursively |
-| sudo [command] | Run command with the security privileges of the superuser (Super User DO) |
 | open [file] | Opens a file ( as if you double clicked it ) |
 | top | Displays active processes. Press q to quit |
 | nano [file] | Opens the file using the nano editor |
