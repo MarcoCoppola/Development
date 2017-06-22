@@ -11,6 +11,7 @@
 
 | Command | Description |
 | --------- | ------- |
+|  `npm outdated` |  This command will check the registry to see if any (or, specific) installed packages are currently outdated. |
 
 ---
 
