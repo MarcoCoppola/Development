@@ -29,3 +29,4 @@
 
 | Command | Description |
 | --------- | ------- |
+|composer show | Show the list of all installed packages|
