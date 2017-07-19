@@ -1,9 +1,17 @@
-#Messages
+# Messages
 
 ## Table of Contents
 
+  1. [Errors](#errors)
   1. [Backend](#backend)
   1. [Frontend](#frontend)
+
+---
+
+## Errors
+| Messages |
+| --------- |
+|   No task found with task_id = 42 |
 
 ---
 
