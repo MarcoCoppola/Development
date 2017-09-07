@@ -13,6 +13,7 @@
     * [Foreign Key Constraints](#foreign-key-constraints)
 3. [Packages](#packages)
     * [Envoy](#envoy)
+    * [API Doc Generator](#api-doc-generator)
  
     
 
@@ -123,3 +124,6 @@ public function up()
 
 ### Envoy
 `alias envoy="~/.composer/vendor/bin/envoy"`
+
+### API Doc Generator
+`php artisan api:generate --routePrefix="api/*" --output="docs"`
