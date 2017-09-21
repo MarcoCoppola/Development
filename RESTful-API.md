@@ -8,9 +8,9 @@
     * [Update](#update)
     * [Delete]()
 2. Frontend
-3. HTTP Status Codes
-    * 2×× Success
-    * 4×× Client Error
+3. [HTTP Status Codes]()
+    * [2×× Success]()
+    * [4×× Client Error]()
 
 
 ---
