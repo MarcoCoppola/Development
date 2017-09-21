@@ -8,6 +8,9 @@
     * [Update](#update)
     * [Delete]()
 2. Frontend
+3. HTTP Status Codes
+  * 2×× Success
+  * 4×× Client Error
 
 
 ---
@@ -34,3 +37,16 @@ Method name:
 |  *Update* | `` | | |
 |  *Deleate* | `` | | |
 
+---
+
+## HTTP Status Codes
+
+### 2×× Success
+| Code | Info | Constant | Note |
+| ---- | ---- | -------- | ---- |
+
+
+### 4×× Client Error
+| Code | Info | Constant | Note |
+| ---- | ---- | -------- | ---- |
+|  422 | `UNPROCESSABLE ENTITY` | HTTP_UNPROCESSABLE_ENTITY | Quando fallisce la validazione dei parametri |
