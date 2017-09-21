@@ -9,8 +9,8 @@
     * [Delete]()
 2. Frontend
 3. HTTP Status Codes
-  * 2×× Success
-  * 4×× Client Error
+    * 2×× Success
+    * 4×× Client Error
 
 
 ---
@@ -49,4 +49,4 @@ Method name:
 ### 4×× Client Error
 | Code | Info | Constant | Note |
 | ---- | ---- | -------- | ---- |
-|  422 | `UNPROCESSABLE ENTITY` | HTTP_UNPROCESSABLE_ENTITY | Quando fallisce la validazione dei parametri |
+|  422 | `UNPROCESSABLE ENTITY` | HTTP_UNPROCESSABLE_ENTITY | Used for validation errors |
