@@ -42,11 +42,12 @@ Method name:
 ## HTTP Status Codes
 
 ### 2×× Success
-| Code | Info | Constant | Note |
-| ---- | ---- | -------- | ---- |
+| Code | Info | Note |
+| ---- | ---- | ---- |
+| 201 | `Created` | Response to a POST that results in a creation |
 
 
 ### 4×× Client Error
-| Code | Info | Constant | Note |
-| ---- | ---- | -------- | ---- |
-|  422 | `UNPROCESSABLE ENTITY` | HTTP_UNPROCESSABLE_ENTITY | Used for validation errors |
+| Code | Info | Note |
+| ---- | ---- | ---- |
+| 422 | `Unprocessable Entity` | Used for validation errors |
