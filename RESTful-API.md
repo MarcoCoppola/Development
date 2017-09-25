@@ -45,6 +45,7 @@ Method name:
 | Code | Info | Note |
 | ---- | ---- | ---- |
 | 201 | `Created` | Response to a POST that results in a creation |
+| 204 | `No Content` | Response to a successful request that won't be returning a body (like a DELETE request) |
 
 
 ### 4×× Client Error
