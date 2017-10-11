@@ -44,6 +44,7 @@ Method name:
 ### 2×× Success
 | Code | Info | Note |
 | ---- | ---- | ---- |
+| 200 | `Ok` | Response to a successful GET, PUT, PATCH or DELETE. Can also be used for a POST that doesn't result in a creation |
 | 201 | `Created` | Response to a POST that results in a creation |
 | 204 | `No Content` | Response to a successful request that won't be returning a body (like a DELETE request) |
 
