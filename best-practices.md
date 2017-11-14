@@ -1,9 +1,24 @@
 # Best Practices
 
 **Table of Contents**
-
+1. HTML/CSS
 1. Abstract Class
 
+---
+
+## HTML/CSS
+#### Use alternative text on <img> tags for clean code principles validity.
+
+This attribute plays vital role for SEO, search engines, web crawlers, screen readers, etc.
+
+Bad code:
+``` html
+<img src="demo.jpg">
+```
+Good code:
+``` html
+<img src="demo.jpg" alt="This is placeholder of the image">
+```
 ---
 
 ## Abstract Class
