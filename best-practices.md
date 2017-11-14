@@ -11,15 +11,38 @@
 
 This attribute plays vital role for SEO, search engines, web crawlers, screen readers, etc.
 
-Bad code:
+**Bad code:**
 ``` html
 <img src="demo.jpg">
 ```
-Good code:
+**Good code:**
 ``` html
 <img src="demo.jpg" alt="This is placeholder of the image">
 ```
+
+#### Use kebab-case (spinal-case).
+
+For names, try to use kebab-case (spinal-case) and not use camelCase, or under_score. Use under_score only when using BEM, though if you are using Bootstrap, it’s better to keep consistent and go with - as a delimiter.
+
+**Bad code:**
+``` html
+<section class="section_featured_Listing">
+  <h1 class="largeTitle">H1 title</h1>
+</section>
+```
+
+**Good code:**
+``` html
+<section class="section-featured-listing">
+  <h1 class="large-title">H1 title</h1>
+</section>
+```
+
+kebab-case is more readable then camelCase and under_score.
+
 ---
+
+
 
 ## Abstract Class
 ``` php
