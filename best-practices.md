@@ -1,7 +1,7 @@
 # Best Practices
 
 **Table of Contents**
-1. HTML/CSS
+1. [HTML/CSS](#htmlcss)
 1. Abstract Class
 
 ---
