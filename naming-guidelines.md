@@ -3,7 +3,7 @@
 ## Table of Contents
 
   1. [Singular or Plural](#singular-or-plural)
-  1. [Listener, events]()
+  1. [Listeners, callbacks, events]()
   1. [Show/hide]()
   
 
@@ -16,19 +16,32 @@
 | Controller | Plural | UsersController | Se il controller si riferisce ad un Model |
 
 ---
-## Listener, events
 
-#### Registrare un listener
+## Listeners, callbacks, events
+#### Listeners
 * **Method**: `registerFooListener()`
 * **Descriptions**: Registers a listener for foo event.
-
-#### Definire un ascoltatore
 * OnClickListener
 * Ascoltatore sul onClick
 * Interface definition for a callback to be invoked when a view is clicked.
 * Called when a view has been clicked.
- 
+
+
+#### Callbacks
+``` java
+public interface ConnectionCallbacks {
+        int CAUSE_SERVICE_DISCONNECTED = 1;
+        int CAUSE_NETWORK_LOST = 2;
+
+        void onConnected(int var1);
+
+        void onConnectionSuspended(int var1);
+    }
+```
+
+
 ---
+
 ### Show/hide
 #### VARIABLE
 
