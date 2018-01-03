@@ -1,13 +1,22 @@
 #Naming Guidelines
 
 ## Table of Contents
-
+  1. [Class Name](#class-name)
   1. [Singular or Plural](#singular-or-plural)
   1. [Listeners, callbacks, events](#listeners-callbacks-events)
   1. [Show/hide]()
+
   
+--- 
+
+## Class Name
+
+| Name | Note | 
+| ---- | ---- |
+| NotificationManager ||
 
 ---
+
 ## Singular or Plural?
 
 | Type | Singular or plural | Example | Details |
@@ -88,8 +97,3 @@ public interface ConnectionCallbacks {
   | `flag (optional)` | `boolean` | `true` | Enable or disable debug level messages. |
 
 * **returns**: current value if used as getter or itself (chaining) if used as setter
-
---- 
-
-## Auth
-* Login successful!
