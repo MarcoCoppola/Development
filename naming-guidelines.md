@@ -3,7 +3,7 @@
 ## Table of Contents
 
   1. [Singular or Plural](#singular-or-plural)
-  1. [Listeners, callbacks, events]()
+  1. [Listeners, callbacks, events](#listeners-callbacks-events)
   1. [Show/hide]()
   
 
@@ -18,7 +18,7 @@
 ---
 
 ## Listeners, callbacks, events
-#### Listeners
+### Listeners
 * **Method**: `registerFooListener()`
 * **Descriptions**: Registers a listener for foo event.
 * OnClickListener
@@ -27,7 +27,7 @@
 * Called when a view has been clicked.
 
 
-#### Callbacks
+### Callbacks
 ``` java
 public interface ConnectionCallbacks {
         int CAUSE_SERVICE_DISCONNECTED = 1;
