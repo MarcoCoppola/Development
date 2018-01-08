@@ -82,6 +82,7 @@ A good practice is to not include the word `menu` as part of the name because th
 ### ID Resources
 
 **Pattern:** `<WHAT>_<WHERE>_<DESCRIPTION>`
+
 | Example    | Description |
 | ---------- | ----------- |
 | `tablayout_main`   | TabLayout in MainActivity    |
