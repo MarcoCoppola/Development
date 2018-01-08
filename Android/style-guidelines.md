@@ -20,7 +20,7 @@
 ## Naming
 
 ### Layout files
-Pattern: **<WHAT>_<WHERE>.xml**
+**Pattern:** `<WHAT>_<WHERE>.xml`
 
 | Component        | Pattern                     | Example                       |
 | ---------------- | --------------------------- | ----------------------------- |
