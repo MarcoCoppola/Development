@@ -80,6 +80,15 @@ A good practice is to not include the word `menu` as part of the name because th
 ---
 
 ### ID Resources
+
+**Pattern:** `<WHAT>_<WHERE>_<DESCRIPTION>`
+| Example    | Description |
+| ---------- | ----------- |
+| `tablayout_main`   | TabLayout in MainActivity    |
+| `image_menu_profile`   | profile image in custom MenuView   |
+| `text_articledetail_title`  | title TextView in ArticleDetailFragment  |    
+
+**Old**
 **Pattern**: `layoutname_component_name`, `component_name`
 
 
