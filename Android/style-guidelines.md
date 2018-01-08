@@ -30,6 +30,19 @@
 | AdapterView row  | `item_<LIST_NAME>`          | `item_person.xml`             |
 
 ---
+
+### Layout files
+**Pattern:** `<WHERE>_<DESCRIPTION>.xml`
+
+| Component        | Pattern                     | Example                       |
+| ---------------- | --------------------------- | ----------------------------- |
+| Activity         | `activity_<ACTIVITY NAME>`  | `activity_user_profile.xml`   |
+| Fragment         | `fragment_<FRAGMENT_NAME>`  | `fragment_sign_up.xml`        |
+| Dialog           | `dialog_<DIALOG_NAME>`      | `dialog_change_password.xml`  |
+| AdapterView row  | `item_<LIST_NAME>`          | `item_person.xml`             |
+
+---
+
 ### Menu files
 
 Similar to layout files, menu files should match the name of the component. For example, if we are defining a menu file that is going to be used in the `UserActivity`, then the name of the file should be `activity_user.xml`
