@@ -3,14 +3,14 @@
 **Table of Contents**
 
 1. [Naming](#naming)
- * [Layout files](#layout-files)
- * [Drawable files](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md#1221-drawable-files)
- * [Menu files](#menu-files)
- * [ID Resources](#id-resources)
- * [Constants](#constants)
- * [Style](#style)
-    * [Dimen](#dimen)
- * [Strings](#strings)
+   * [Layout files](#layout-files)
+   * [Drawable files](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md#1221-drawable-files)
+   * [Menu files](#menu-files)
+   * [ID Resources](#id-resources)
+   * [Constants](#constants)
+   * [Style](#style)
+      * [Dimen](#dimen)
+   * [Strings](#strings)
 
 1. Style
   - [Typografy](#typografy)
@@ -20,13 +20,14 @@
 ## Naming
 
 ### Layout files
+Pattern: **<WHAT>_<WHERE>.xml**
 
 | Component        | Pattern                     | Example                       |
 | ---------------- | --------------------------- | ----------------------------- |
 | Activity         | `activity_<ACTIVITY NAME>`  | `activity_user_profile.xml`   |
 | Fragment         | `fragment_<FRAGMENT_NAME>`  | `fragment_sign_up.xml`        |
 | Dialog           | `dialog_<DIALOG_NAME>`      | `dialog_change_password.xml`  |
-| AdapterView row  | `row_<LIST_NAME>`           | `item_person.xml`             |
+| AdapterView row  | `item_<LIST_NAME>`          | `item_person.xml`             |
 
 ---
 ### Menu files
