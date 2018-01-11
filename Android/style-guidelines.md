@@ -89,25 +89,6 @@ A good practice is to not include the word `menu` as part of the name because th
 | `image_menu_profile`   | profile image in custom MenuView   |
 | `text_articledetail_title`  | title TextView in ArticleDetailFragment  |    
 
-**Old**
-**Pattern**: `layoutname_component_name`, `component_name`
-
-
-`Which page` + `Which component` + `What it is for`
-
-| Component  | Prefix     | Example             |
-| ---------- | ---------- | ------------------- |
-| TextView   | `text_`    | `@+id/text_name`    |
-| ImageView  | `image_`   | `@+id/image_user`   |
-| Button     | `button_`  | `@+id/button_user`  |
-| Menu       | `menu_`    | `@+id/menu_done`    |
-
-| Examples               |
-| ---------------------- |
-| login_button_submit    |
-| login_text_forgot_pass |
-
-
 ---
 ### Constants
 
