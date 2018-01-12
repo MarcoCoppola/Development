@@ -25,4 +25,5 @@
 ## Frontend
 | Messages |
 | --------- |
-|  Connessione Internet assente. Il dispositivo è offline. |
+| Connessione Internet assente. Il dispositivo è offline. |
+| Username o password non validi |
