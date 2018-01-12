@@ -143,6 +143,14 @@ android:minHeight=”@dimen/photos_mediadetails_item_min_height”
 ---
 
 ### Strings
+**Pattern:** `<WHERE>_<WHAT>_<DESCRIPTION>`
+Example from Google:
+
+```xml
+<string name=”photos_mediadetails_details_edit_datetime_icon_content_description”>Edit icon to allow the user to edit the date/time of the media.</string>
+```
+
+**OLD**
 String names start with a prefix that identifies the section they belong to. 
 For example `registration_email_hint` or `registration_name_hint`. 
 If a string __doesn't belong__ to any section, then you should follow the rules below:
@@ -156,11 +164,7 @@ If a string __doesn't belong__ to any section, then you should follow the rules 
 | `action_`            | An action such as "Save" or "Create"  |
 
 
-Example from Google:
 
-```xml
-<string name=”photos_mediadetails_details_edit_datetime_icon_content_description”>Edit icon to allow the user to edit the date/time of the media.</string>
-```
 
 ---
 
