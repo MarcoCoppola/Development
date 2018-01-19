@@ -135,8 +135,10 @@ Theme.CardView.Card
 
 #### TextApparance
 `TextAppearance.List.TwoLine.SecondaryText`
+
 La prima voce è TextAppearance perchè è un attributo e non uno style.
 Poi si applica un'approccio Top-Down
+
 
 #### Dimen
 Example from google:
