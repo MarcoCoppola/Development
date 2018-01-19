@@ -9,7 +9,6 @@
    * [ID Resources](#id-resources)
    * [Constants](#constants)
    * [Style](#style)
-      * [Dimen](#dimen)
    * [Strings](#strings)
 
 1. [Typografy](#typografy)
