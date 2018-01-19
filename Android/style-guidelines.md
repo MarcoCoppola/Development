@@ -12,8 +12,7 @@
       * [Dimen](#dimen)
    * [Strings](#strings)
 
-1. Style
-  - [Typografy](#typografy)
+1. [Typografy](#typografy)
 
 ---
 
@@ -176,8 +175,6 @@ If a string __doesn't belong__ to any section, then you should follow the rules 
 
 
 ---
-
-## Style
 
 ### Typografy
 [Link](http://stackoverflow.com/questions/12128331/how-to-change-fontfamily-of-textview-in-android)
