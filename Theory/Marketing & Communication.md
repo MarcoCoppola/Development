@@ -15,3 +15,4 @@
 | 🍩 Offerte irresistibili! | Newsletter - Booking.com |
 | Attenzione: non lasciarti scappare i nostri sconti fino al 50%! | Newsletter - Hotels.com |
 | È il tuo giorno fortunato! ✨ Con le nostre tariffe segrete risparmi fino al 50%!| Newsletter - Hotels.com |
+| I tuoi preferiti fino a -60%, non potrai farne a meno 😍 | Newsletter - Zalando |
