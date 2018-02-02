@@ -1,5 +1,11 @@
 ## Marketing & Communication
 
+### Festività
+| Frasi | Fonte | 
+| ----- | ----- | 
+| A Carnevale ogni promozione vale, -40% con Italo! | Newsletter - Italo |
+
+
 ### Tempo
 | Frasi | Fonte | 
 | ----- | ----- | 
