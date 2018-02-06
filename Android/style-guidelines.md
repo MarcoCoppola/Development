@@ -157,7 +157,11 @@ By Google:
 ```xml
 <string name=”photos_mediadetails_details_edit_datetime_icon_content_description”>Edit icon to allow the user to edit the date/time of the media.</string>
 
-<string name="assistant_t_google_"></string>
+<string name="assistant_t_google_preference_title">...</string>
+<string name="assistant_t_google_preference_summary">...</string>
+<string name="assistant_t_google_support_alert_message">...</string>
+<string name="assistant_t_google_alert_positive_label">...</string>
+<string name="assistant_t_google_alert_negative_label">...</string>
 ```
 
 **OLD**
