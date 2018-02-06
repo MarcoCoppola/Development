@@ -151,10 +151,13 @@ android:minHeight=”@dimen/photos_mediadetails_item_min_height”
 
 ### Strings
 **Pattern:** `<WHERE>_<WHAT>_<DESCRIPTION>`
-Example from Google:
+
+By Google:
 
 ```xml
 <string name=”photos_mediadetails_details_edit_datetime_icon_content_description”>Edit icon to allow the user to edit the date/time of the media.</string>
+
+<string name="assistant_t_google_"></string>
 ```
 
 **OLD**
