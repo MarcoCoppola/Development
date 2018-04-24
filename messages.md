@@ -19,7 +19,9 @@
 | Messages |
 | --------- |
 |  FirebaseApp initialization successful |
-|[WeblogicDeploymentPlugin] - Undeploying artifact ...
+
+``` 
+[WeblogicDeploymentPlugin] - Undeploying artifact ...
 [WeblogicDeploymentPlugin] - Artifact undeployed successfully.
 [WeblogicDeploymentPlugin] - Deploying artifact ...
 [WeblogicDeploymentPlugin] - Artifact deployed successfully.
@@ -27,8 +29,8 @@
 [INFO] DEPLOYMENT SUCCESS
 [INFO] ------------------------------------------------------------------------
 [WS-CLEANUP] Deleting project workspace...[WS-CLEANUP] done
-Finished: SUCCESS |
-
+Finished: SUCCESS
+```
 --- 
 
 ## Frontend
